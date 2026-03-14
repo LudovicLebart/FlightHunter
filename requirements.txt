@@ -1,0 +1,8 @@
+# Core dependencies for FlightHunter
+firebase-admin
+python-dotenv
+requests
+schedule
+
+# API specific
+amadeus
