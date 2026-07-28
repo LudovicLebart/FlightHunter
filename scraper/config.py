@@ -13,17 +13,17 @@ from dataclasses import dataclass, field
 
 ORIGIN = "YUL"  # Montréal-Trudeau
 
-# Fenêtre de départ : aujourd'hui + N jours (bornes incluses).
-# "dans les 2 jours" => on couvre aujourd'hui, demain et après-demain.
-DEPARTURE_WINDOW_DAYS = 2
+# Fenêtre de départ : plage de dates fixe (bornes incluses).
+DEPARTURE_START = datetime.date(2026, 8, 2)
+DEPARTURE_END = datetime.date(2026, 8, 9)
 
-def departure_dates(today: datetime.date | None = None) -> list[datetime.date]:
-    today = today or datetime.date.today()
-    return [today + datetime.timedelta(days=d) for d in range(0, DEPARTURE_WINDOW_DAYS + 1)]
+def departure_dates() -> list[datetime.date]:
+    n_days = (DEPARTURE_END - DEPARTURE_START).days
+    return [DEPARTURE_START + datetime.timedelta(days=d) for d in range(0, n_days + 1)]
 
 
-NIGHTS_MIN = 10
-NIGHTS_MAX = 14
+NIGHTS_MIN = 9
+NIGHTS_MAX = 15
 
 PAX = 2  # nombre de passagers — ajuste si besoin, non précisé par l'utilisateur
 BUDGET_MAX_CAD = 12_000  # budget total pour le voyage (tous passagers confondus)

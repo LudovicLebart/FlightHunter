@@ -110,36 +110,50 @@ class TransatProvider(Provider):
         # Les options du filtre "Date" (mois disponibles, fenêtres "< N
         # jours"...) dépendent de l'inventaire pour l'origine choisie —
         # constaté : "Days-1-7" existe pour certaines origines mais pas pour
-        # Montréal, où seuls des mois (ex. "Août") étaient proposés. On
-        # cherche donc dynamiquement la plus petite fenêtre "< N jours"
-        # disponible plutôt que de viser une valeur fixe.
+        # Montréal, où seuls des mois (ex. "Août") étaient proposés.
         try:
             date_field = self.page.locator(DATE_INPUT_SELECTOR)
             date_field.first.click(timeout=5000)
             self.page.wait_for_timeout(500)
 
+            # Priorité : sélectionner directement le(s) mois cible(s) s'ils
+            # sont proposés — plus précis qu'une fenêtre "< N jours" quand
+            # toute la plage de départs demandée tombe dans un seul mois.
+            target_months = sorted({config.DEPARTURE_START.month, config.DEPARTURE_END.month})
+            for month in target_months:
+                month_item = self.page.locator(f"li[data-uid='Month-{month}']")
+                if month_item.count() > 0:
+                    month_item.first.click(timeout=5000)
+                    return
+
+            # Repli : la plus petite fenêtre "< N jours" qui couvre bien la
+            # fin de la plage de départs demandée (DEPARTURE_END), pas juste
+            # la plus petite fenêtre disponible dans l'absolu — sinon on
+            # risque de rater la fin de la plage demandée.
+            days_needed = (config.DEPARTURE_END - datetime.date.today()).days
             day_window_items = self.page.locator("li[data-uid^='Days-1-']")
             count = day_window_items.count()
             if count == 0:
                 self.logger.info(
-                    "Aucune fenêtre '< N jours' disponible pour cette origine sur Transat "
-                    "(seuls des mois sont proposés) — probablement pas d'inventaire pour un "
-                    "départ dans les prochains jours."
+                    "Aucune option de date (mois ou fenêtre) disponible pour cette origine "
+                    "sur Transat — probablement pas d'inventaire pour ces dates."
                 )
                 return
 
-            best_uid, best_days = None, None
+            candidates: list[tuple[int, str]] = []
             for i in range(count):
                 uid = day_window_items.nth(i).get_attribute("data-uid") or ""
                 try:
                     days = int(uid.rsplit("-", 1)[-1])
                 except ValueError:
                     continue
-                if best_days is None or days < best_days:
-                    best_uid, best_days = uid, days
+                candidates.append((days, uid))
 
-            if best_uid is None:
+            if not candidates:
                 return
+
+            covering = [c for c in candidates if c[0] >= days_needed]
+            best_uid = min(covering)[1] if covering else max(candidates)[1]
 
             self.page.locator(f"li[data-uid='{best_uid}']").first.click(timeout=5000)
         except Exception:

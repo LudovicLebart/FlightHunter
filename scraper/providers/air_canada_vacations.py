@@ -7,6 +7,11 @@ import config
 from models import Offer
 from providers.base import Provider, ProviderError
 
+FRENCH_MONTHS = {
+    1: "janvier", 2: "février", 3: "mars", 4: "avril", 5: "mai", 6: "juin",
+    7: "juillet", 8: "août", 9: "septembre", 10: "octobre", 11: "novembre", 12: "décembre",
+}
+
 # Sélecteurs vérifiés le 2026-07-28 contre le DOM réel du formulaire de
 # recherche (inspect_site.py) — voir
 # scraper/output/debug/inspect_air_canada_vacations.html. Les champs
@@ -191,8 +196,10 @@ class AirCanadaVacationsProvider(Provider):
             mid_nights = (nights_min + nights_max) // 2
             return_date = departure_date + datetime.timedelta(days=mid_nights)
 
+            self._navigate_calendar_to_month(departure_date)
             self._click_calendar_day(departure_date)
             self.page.wait_for_timeout(500)
+            self._navigate_calendar_to_month(return_date)
             self._click_calendar_day(return_date)
         except Exception:
             self.logger.warning(
@@ -201,6 +208,24 @@ class AirCanadaVacationsProvider(Provider):
             )
             if self.debug:
                 self.dump_debug("calendar_select_fail")
+
+    def _navigate_calendar_to_month(self, target: datetime.date) -> None:
+        # vue-datepicker : en-tête du mois affiché dans ".dp__month_year_wrap",
+        # bouton "mois suivant" généralement le dernier ".dp__inner_nav".
+        # Nos dates cibles (août) sont dans un mois différent du mois
+        # courant (juillet) — sans cette navigation, le clic sur le jour
+        # tomberait sur le mauvais mois. Non vérifié en conditions réelles.
+        target_label = f"{FRENCH_MONTHS[target.month]} {target.year}"
+        header = self.page.locator(".dp__month_year_wrap")
+        next_btn = self.page.locator("button.dp__inner_nav").last
+        if header.count() == 0 or next_btn.count() == 0:
+            return
+        for _ in range(8):  # garde-fou pour ne jamais boucler indéfiniment
+            current = (header.first.inner_text() or "").strip().lower()
+            if target_label in current:
+                return
+            next_btn.click(timeout=3000)
+            self.page.wait_for_timeout(300)
 
     def _click_calendar_day(self, day: datetime.date) -> None:
         # vue-datepicker : chaque case de jour est un ".dp__cell_inner".
