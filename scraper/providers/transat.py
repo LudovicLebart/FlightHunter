@@ -78,11 +78,15 @@ class TransatProvider(Provider):
         return packages
 
     def _dismiss_cookies(self) -> None:
+        # La bannière OneTrust apparaît avec un léger délai après le
+        # chargement (pas immédiatement) : un simple `.count()` juste après
+        # `goto()` la rate souvent, laissant son overlay bloquer les clics
+        # suivants sur le formulaire. On attend explicitement sa visibilité.
         try:
             btn = self.page.locator(COOKIE_ACCEPT_SELECTOR)
-            if btn.count() > 0:
-                btn.first.click(timeout=5000)
-                self.page.wait_for_timeout(500)
+            btn.first.wait_for(state="visible", timeout=8000)
+            btn.first.click(timeout=5000)
+            self.page.wait_for_timeout(500)
         except Exception:
             self.logger.debug("Pas de bannière de cookies à fermer (ou sélecteur obsolète)")
 

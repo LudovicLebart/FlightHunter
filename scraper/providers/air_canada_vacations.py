@@ -104,23 +104,31 @@ class AirCanadaVacationsProvider(Provider):
     # --- Formulaire (vérifié) --------------------------------------------
 
     def _dismiss_cookies(self) -> None:
+        # La bannière peut apparaître avec un léger délai après le
+        # chargement : on attend sa visibilité plutôt que de vérifier tout
+        # de suite, sinon son overlay peut bloquer les clics suivants.
         for sel in COOKIE_ACCEPT_SELECTORS:
             try:
                 btn = self.page.locator(sel)
-                if btn.count() > 0:
-                    btn.first.click(timeout=5000)
-                    self.page.wait_for_timeout(500)
-                    return
+                btn.first.wait_for(state="visible", timeout=4000)
+                btn.first.click(timeout=5000)
+                self.page.wait_for_timeout(500)
+                return
             except Exception:
                 continue
 
     def _fill_combobox(self, input_selector: str, listbox_item_selector: str, query: str) -> None:
         field = self.page.locator(input_selector)
         field.first.click(timeout=5000)
-        field.first.fill(query)
-        self.page.wait_for_timeout(1000)  # laisse l'autocomplete se peupler
+        field.first.fill("")
+        # `.fill()` seul ne déclenche pas toujours les événements attendus
+        # par l'autocomplete (constaté : "Aucun résultat trouvé" même pour
+        # un code d'aéroport valide) — on tape caractère par caractère comme
+        # un vrai clavier.
+        field.first.press_sequentially(query, delay=80)
+        self.page.wait_for_timeout(1200)  # laisse l'autocomplete se peupler
         items = self.page.locator(listbox_item_selector)
-        if items.count() == 0:
+        if items.count() == 0 or "aucun résultat" in (items.first.inner_text() or "").lower():
             raise ProviderError(f"Aucune suggestion pour {query!r} sur {input_selector}")
         items.first.click(timeout=5000)
 
