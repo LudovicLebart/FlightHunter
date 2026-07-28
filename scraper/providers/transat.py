@@ -48,5 +48,9 @@ class TransatProvider(GenericPackageProvider):
     """Vacances Transat (vacances.transat.com) — forfaits tout compris."""
 
     name = "transat"
-    base_url = "https://www.vacances.transat.com/fr-ca/"
+    # Domaine vérifié le 2026-07-28 (curl direct) : www.vacances.transat.com
+    # n'existe pas (ERR_NAME_NOT_RESOLVED). Le vrai site est sous
+    # www.transat.com, "widget-packageSearch" (AngularJS), protégé par
+    # Incapsula. Sélecteurs internes toujours à vérifier — voir README.md.
+    base_url = "https://www.transat.com/fr-CA/voyage-pas-cher/sud"
     selectors = SELECTORS

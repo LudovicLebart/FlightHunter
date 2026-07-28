@@ -48,5 +48,7 @@ class AirCanadaVacationsProvider(GenericPackageProvider):
     """Vacances Air Canada (vacances.aircanada.com) — forfaits tout compris."""
 
     name = "air_canada_vacations"
-    base_url = "https://www.vacances.aircanada.com/fr-ca/"
+    # Domaine vérifié le 2026-07-28 (curl direct) : www.vacances.aircanada.com
+    # redirige vers vacations.aircanada.com/fr (le vrai domaine du site).
+    base_url = "https://vacations.aircanada.com/fr"
     selectors = SELECTORS
