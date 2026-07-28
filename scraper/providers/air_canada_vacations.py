@@ -23,7 +23,11 @@ ORIGIN_LISTBOX_SELECTOR = "#vacation_packages_tab-from-listbox li"
 DESTINATION_INPUT_SELECTOR = "#vacation_packages_tab-to-input"
 DESTINATION_LISTBOX_SELECTOR = "#vacation_packages_tab-to-listbox li"
 DEPARTURE_DATE_INPUT_SELECTOR = "#vacation_packages_tab-departureDateId"
-SEARCH_BUTTON_SELECTOR = "button.vacv-btn-primary"
+# ATTENTION : la classe "vacv-btn-primary" est aussi utilisée par le bouton
+# "Se connecter" (Aeroplan) — un simple `button.vacv-btn-primary` matche les
+# deux et `.first` peut résoudre sur le mauvais bouton. Il faut filtrer sur
+# le texte "Rechercher".
+SEARCH_BUTTON_SELECTOR = "button.vacv-btn-primary:has-text('Rechercher')"
 
 # Sélecteurs de la page de résultats — NON VÉRIFIÉS (jamais observés en
 # conditions réelles, cette page n'a pas encore été atteinte). Suppositions
@@ -130,7 +134,22 @@ class AirCanadaVacationsProvider(Provider):
         items = self.page.locator(listbox_item_selector)
         if items.count() == 0 or "aucun résultat" in (items.first.inner_text() or "").lower():
             raise ProviderError(f"Aucune suggestion pour {query!r} sur {input_selector}")
-        items.first.click(timeout=5000)
+
+        # Un clic souris direct sur le <li> ne suffit pas toujours à faire
+        # "prendre" la sélection (constaté : le champ restait vide après
+        # clic, avec `value=""` dans le DOM) — la navigation clavier
+        # (flèche bas + Entrée) déclenche plus fiablement le handler de
+        # sélection de ce type de combobox. On retombe sur le clic souris
+        # si le clavier n'a pas fonctionné non plus.
+        field.first.press("ArrowDown")
+        self.page.wait_for_timeout(200)
+        field.first.press("Enter")
+        self.page.wait_for_timeout(300)
+        if not field.first.input_value():
+            items.first.click(timeout=5000)
+            self.page.wait_for_timeout(300)
+        if not field.first.input_value():
+            raise ProviderError(f"La sélection de {query!r} sur {input_selector} n'a pas pris (champ vide)")
 
     def _fill_search_form(
         self,

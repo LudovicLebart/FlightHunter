@@ -107,15 +107,41 @@ class TransatProvider(Provider):
                 self.dump_debug("origin_select_fail")
 
     def _select_near_term_dates(self) -> None:
+        # Les options du filtre "Date" (mois disponibles, fenêtres "< N
+        # jours"...) dépendent de l'inventaire pour l'origine choisie —
+        # constaté : "Days-1-7" existe pour certaines origines mais pas pour
+        # Montréal, où seuls des mois (ex. "Août") étaient proposés. On
+        # cherche donc dynamiquement la plus petite fenêtre "< N jours"
+        # disponible plutôt que de viser une valeur fixe.
         try:
             date_field = self.page.locator(DATE_INPUT_SELECTOR)
             date_field.first.click(timeout=5000)
             self.page.wait_for_timeout(500)
-            # "< 7 jours" est le filtre natif le plus proche de notre fenêtre
-            # de 2 jours ; on affine ensuite précisément par date exacte dans
-            # `_package_to_offer` / `search_one`.
-            item = self.page.locator("li[data-uid='Days-1-7']")
-            item.first.click(timeout=5000)
+
+            day_window_items = self.page.locator("li[data-uid^='Days-1-']")
+            count = day_window_items.count()
+            if count == 0:
+                self.logger.info(
+                    "Aucune fenêtre '< N jours' disponible pour cette origine sur Transat "
+                    "(seuls des mois sont proposés) — probablement pas d'inventaire pour un "
+                    "départ dans les prochains jours."
+                )
+                return
+
+            best_uid, best_days = None, None
+            for i in range(count):
+                uid = day_window_items.nth(i).get_attribute("data-uid") or ""
+                try:
+                    days = int(uid.rsplit("-", 1)[-1])
+                except ValueError:
+                    continue
+                if best_days is None or days < best_days:
+                    best_uid, best_days = uid, days
+
+            if best_uid is None:
+                return
+
+            self.page.locator(f"li[data-uid='{best_uid}']").first.click(timeout=5000)
         except Exception:
             self.logger.warning(
                 "Impossible de sélectionner le filtre de dates sur Transat (sélecteur à "
