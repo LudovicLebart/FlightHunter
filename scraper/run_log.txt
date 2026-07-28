@@ -1,0 +1,1138 @@
+2026-07-28 17:00:02,589 [INFO] scraper.brute_force: Brute force: 2 provider(s) x 8 destination(s) x 3 date(s) = 48 recherches
+2026-07-28 17:00:02,589 [DEBUG] asyncio: Using selector: EpollSelector
+2026-07-28 17:00:03,489 [INFO] scraper.brute_force: [1/48] transat: VRA le 2026-07-28
+2026-07-28 17:00:10,703 [WARNING] scraper.transat: Impossible de sélectionner l'origine YUL sur Transat (sélecteur à vérifier, on continue avec l'origine par défaut du site)
+2026-07-28 17:00:11,231 [INFO] scraper.transat: Debug sauvegardé: output/debug/transat_origin_select_fail_20260728_170010.png / output/debug/transat_origin_select_fail_20260728_170010.html
+2026-07-28 17:00:16,234 [WARNING] scraper.transat: Impossible de sélectionner le filtre de dates sur Transat (sélecteur à vérifier, on continue sans filtre de date)
+2026-07-28 17:00:16,797 [INFO] scraper.transat: Debug sauvegardé: output/debug/transat_date_select_fail_20260728_170016.png / output/debug/transat_date_select_fail_20260728_170016.html
+2026-07-28 17:00:19,816 [INFO] scraper.transat: Transat: 15 forfait(s) récupéré(s) en une recherche
+2026-07-28 17:00:19,816 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 17:00:25,552 [INFO] scraper.brute_force: [2/48] transat: VRA le 2026-07-29
+2026-07-28 17:00:25,552 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 17:00:30,836 [INFO] scraper.brute_force: [3/48] transat: VRA le 2026-07-30
+2026-07-28 17:00:30,836 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 17:00:37,330 [INFO] scraper.brute_force: [4/48] transat: CCC le 2026-07-28
+2026-07-28 17:00:37,331 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 17:00:42,719 [INFO] scraper.brute_force: [5/48] transat: CCC le 2026-07-29
+2026-07-28 17:00:42,719 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 17:00:49,185 [INFO] scraper.brute_force: [6/48] transat: CCC le 2026-07-30
+2026-07-28 17:00:49,186 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 17:00:55,175 [INFO] scraper.brute_force: [7/48] transat: SNU le 2026-07-28
+2026-07-28 17:00:55,175 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 17:01:01,947 [INFO] scraper.brute_force: [8/48] transat: SNU le 2026-07-29
+2026-07-28 17:01:01,947 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 17:01:08,286 [INFO] scraper.brute_force: [9/48] transat: SNU le 2026-07-30
+2026-07-28 17:01:08,287 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 17:01:12,638 [INFO] scraper.brute_force: [10/48] transat: PVR le 2026-07-28
+2026-07-28 17:01:12,638 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 17:01:19,008 [INFO] scraper.brute_force: [11/48] transat: PVR le 2026-07-29
+2026-07-28 17:01:19,009 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 17:01:23,342 [INFO] scraper.brute_force: [12/48] transat: PVR le 2026-07-30
+2026-07-28 17:01:23,342 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 17:01:28,841 [INFO] scraper.brute_force: [13/48] transat: SJD le 2026-07-28
+2026-07-28 17:01:28,841 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 17:01:35,403 [INFO] scraper.brute_force: [14/48] transat: SJD le 2026-07-29
+2026-07-28 17:01:35,404 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 17:01:39,472 [INFO] scraper.brute_force: [15/48] transat: SJD le 2026-07-30
+2026-07-28 17:01:39,473 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 17:01:42,584 [INFO] scraper.brute_force: [16/48] transat: HUX le 2026-07-28
+2026-07-28 17:01:42,584 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 17:01:48,083 [INFO] scraper.brute_force: [17/48] transat: HUX le 2026-07-29
+2026-07-28 17:01:48,084 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 17:01:53,208 [INFO] scraper.brute_force: [18/48] transat: HUX le 2026-07-30
+2026-07-28 17:01:53,209 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 17:01:59,906 [INFO] scraper.brute_force: [19/48] transat: MBJ le 2026-07-28
+2026-07-28 17:01:59,906 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 17:02:04,380 [INFO] scraper.brute_force: [20/48] transat: MBJ le 2026-07-29
+2026-07-28 17:02:04,380 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 17:02:08,000 [INFO] scraper.brute_force: [21/48] transat: MBJ le 2026-07-30
+2026-07-28 17:02:08,000 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 17:02:11,916 [INFO] scraper.brute_force: [22/48] transat: POP le 2026-07-28
+2026-07-28 17:02:11,916 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 17:02:17,895 [INFO] scraper.brute_force: [23/48] transat: POP le 2026-07-29
+2026-07-28 17:02:17,895 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 17:02:22,941 [INFO] scraper.brute_force: [24/48] transat: POP le 2026-07-30
+2026-07-28 17:02:22,942 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 17:02:28,001 [INFO] scraper.brute_force: [25/48] air_canada_vacations: VRA le 2026-07-28
+2026-07-28 17:02:36,734 [ERROR] scraper.brute_force: Échec de recherche pour air_canada_vacations / VRA / 2026-07-28 (on continue)
+Traceback (most recent call last):
+  File "/workspaces/FlightHunter/scraper/brute_force.py", line 84, in run_brute_force
+    offers = provider.search_one(
+             ^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/FlightHunter/scraper/providers/air_canada_vacations.py", line 76, in search_one
+    self._fill_search_form(destination, departure_date, nights_min, nights_max)
+  File "/workspaces/FlightHunter/scraper/providers/air_canada_vacations.py", line 135, in _fill_search_form
+    self._fill_combobox(ORIGIN_INPUT_SELECTOR, ORIGIN_LISTBOX_SELECTOR, config.ORIGIN)
+  File "/workspaces/FlightHunter/scraper/providers/air_canada_vacations.py", line 125, in _fill_combobox
+    items.first.click(timeout=5000)
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/sync_api/_generated.py", line 17672, in click
+    self._sync(
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_locator.py", line 163, in click
+    return await self._frame._click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_frame.py", line 591, in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 563, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Locator.click: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator("#vacation_packages_tab-from-listbox li").first
+    - locator resolved to <li class="combo-message">Aucun résultat trouvé</li>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+      - waiting 100ms
+    10 × waiting for element to be visible, enabled and stable
+       - element is not visible
+     - retrying click action
+       - waiting 500ms
+
+2026-07-28 17:02:41,524 [INFO] scraper.brute_force: [26/48] air_canada_vacations: VRA le 2026-07-29
+2026-07-28 17:02:48,919 [ERROR] scraper.brute_force: Échec de recherche pour air_canada_vacations / VRA / 2026-07-29 (on continue)
+Traceback (most recent call last):
+  File "/workspaces/FlightHunter/scraper/brute_force.py", line 84, in run_brute_force
+    offers = provider.search_one(
+             ^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/FlightHunter/scraper/providers/air_canada_vacations.py", line 76, in search_one
+    self._fill_search_form(destination, departure_date, nights_min, nights_max)
+  File "/workspaces/FlightHunter/scraper/providers/air_canada_vacations.py", line 135, in _fill_search_form
+    self._fill_combobox(ORIGIN_INPUT_SELECTOR, ORIGIN_LISTBOX_SELECTOR, config.ORIGIN)
+  File "/workspaces/FlightHunter/scraper/providers/air_canada_vacations.py", line 125, in _fill_combobox
+    items.first.click(timeout=5000)
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/sync_api/_generated.py", line 17672, in click
+    self._sync(
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_locator.py", line 163, in click
+    return await self._frame._click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_frame.py", line 591, in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 563, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Locator.click: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator("#vacation_packages_tab-from-listbox li").first
+    - locator resolved to <li class="combo-message">Indiquez une ville, un code d'aéroport ou une pro…</li>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+      - waiting 100ms
+    10 × waiting for element to be visible, enabled and stable
+       - element is not visible
+     - retrying click action
+       - waiting 500ms
+
+2026-07-28 17:02:55,289 [INFO] scraper.brute_force: [27/48] air_canada_vacations: VRA le 2026-07-30
+2026-07-28 17:03:02,242 [ERROR] scraper.brute_force: Échec de recherche pour air_canada_vacations / VRA / 2026-07-30 (on continue)
+Traceback (most recent call last):
+  File "/workspaces/FlightHunter/scraper/brute_force.py", line 84, in run_brute_force
+    offers = provider.search_one(
+             ^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/FlightHunter/scraper/providers/air_canada_vacations.py", line 76, in search_one
+    self._fill_search_form(destination, departure_date, nights_min, nights_max)
+  File "/workspaces/FlightHunter/scraper/providers/air_canada_vacations.py", line 135, in _fill_search_form
+    self._fill_combobox(ORIGIN_INPUT_SELECTOR, ORIGIN_LISTBOX_SELECTOR, config.ORIGIN)
+  File "/workspaces/FlightHunter/scraper/providers/air_canada_vacations.py", line 125, in _fill_combobox
+    items.first.click(timeout=5000)
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/sync_api/_generated.py", line 17672, in click
+    self._sync(
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_locator.py", line 163, in click
+    return await self._frame._click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_frame.py", line 591, in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 563, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Locator.click: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator("#vacation_packages_tab-from-listbox li").first
+    - locator resolved to <li class="combo-message">Indiquez une ville, un code d'aéroport ou une pro…</li>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+      - waiting 100ms
+    10 × waiting for element to be visible, enabled and stable
+       - element is not visible
+     - retrying click action
+       - waiting 500ms
+
+2026-07-28 17:03:08,695 [INFO] scraper.brute_force: [28/48] air_canada_vacations: CCC le 2026-07-28
+2026-07-28 17:03:15,932 [ERROR] scraper.brute_force: Échec de recherche pour air_canada_vacations / CCC / 2026-07-28 (on continue)
+Traceback (most recent call last):
+  File "/workspaces/FlightHunter/scraper/brute_force.py", line 84, in run_brute_force
+    offers = provider.search_one(
+             ^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/FlightHunter/scraper/providers/air_canada_vacations.py", line 76, in search_one
+    self._fill_search_form(destination, departure_date, nights_min, nights_max)
+  File "/workspaces/FlightHunter/scraper/providers/air_canada_vacations.py", line 135, in _fill_search_form
+    self._fill_combobox(ORIGIN_INPUT_SELECTOR, ORIGIN_LISTBOX_SELECTOR, config.ORIGIN)
+  File "/workspaces/FlightHunter/scraper/providers/air_canada_vacations.py", line 125, in _fill_combobox
+    items.first.click(timeout=5000)
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/sync_api/_generated.py", line 17672, in click
+    self._sync(
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_locator.py", line 163, in click
+    return await self._frame._click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_frame.py", line 591, in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 563, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Locator.click: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator("#vacation_packages_tab-from-listbox li").first
+    - locator resolved to <li class="combo-message">Indiquez une ville, un code d'aéroport ou une pro…</li>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+      - waiting 100ms
+    10 × waiting for element to be visible, enabled and stable
+       - element is not visible
+     - retrying click action
+       - waiting 500ms
+
+2026-07-28 17:03:20,385 [INFO] scraper.brute_force: [29/48] air_canada_vacations: CCC le 2026-07-29
+2026-07-28 17:03:30,448 [ERROR] scraper.brute_force: Échec de recherche pour air_canada_vacations / CCC / 2026-07-29 (on continue)
+Traceback (most recent call last):
+  File "/workspaces/FlightHunter/scraper/brute_force.py", line 84, in run_brute_force
+    offers = provider.search_one(
+             ^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/FlightHunter/scraper/providers/air_canada_vacations.py", line 76, in search_one
+    self._fill_search_form(destination, departure_date, nights_min, nights_max)
+  File "/workspaces/FlightHunter/scraper/providers/air_canada_vacations.py", line 149, in _fill_search_form
+    search_button.first.click(timeout=5000)
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/sync_api/_generated.py", line 17672, in click
+    self._sync(
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_locator.py", line 163, in click
+    return await self._frame._click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_frame.py", line 591, in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 563, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Locator.click: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator("button.vacv-btn-primary").first
+    - locator resolved to <button data-listener="true" data-analytics="Sign In" onclick="window.sso.loginAeroplan()" class="btn-link link vacv-btn-primary">↵            Se connecter↵          </button>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+      - waiting 100ms
+    9 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+      - waiting 500ms
+
+2026-07-28 17:03:34,892 [INFO] scraper.brute_force: [30/48] air_canada_vacations: CCC le 2026-07-30
+2026-07-28 17:03:41,886 [ERROR] scraper.brute_force: Échec de recherche pour air_canada_vacations / CCC / 2026-07-30 (on continue)
+Traceback (most recent call last):
+  File "/workspaces/FlightHunter/scraper/brute_force.py", line 84, in run_brute_force
+    offers = provider.search_one(
+             ^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/FlightHunter/scraper/providers/air_canada_vacations.py", line 76, in search_one
+    self._fill_search_form(destination, departure_date, nights_min, nights_max)
+  File "/workspaces/FlightHunter/scraper/providers/air_canada_vacations.py", line 135, in _fill_search_form
+    self._fill_combobox(ORIGIN_INPUT_SELECTOR, ORIGIN_LISTBOX_SELECTOR, config.ORIGIN)
+  File "/workspaces/FlightHunter/scraper/providers/air_canada_vacations.py", line 125, in _fill_combobox
+    items.first.click(timeout=5000)
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/sync_api/_generated.py", line 17672, in click
+    self._sync(
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_locator.py", line 163, in click
+    return await self._frame._click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_frame.py", line 591, in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 563, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Locator.click: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator("#vacation_packages_tab-from-listbox li").first
+    - locator resolved to <li class="combo-message">Indiquez une ville, un code d'aéroport ou une pro…</li>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+      - waiting 100ms
+    10 × waiting for element to be visible, enabled and stable
+       - element is not visible
+     - retrying click action
+       - waiting 500ms
+
+2026-07-28 17:03:48,059 [INFO] scraper.brute_force: [31/48] air_canada_vacations: SNU le 2026-07-28
+2026-07-28 17:03:55,171 [ERROR] scraper.brute_force: Échec de recherche pour air_canada_vacations / SNU / 2026-07-28 (on continue)
+Traceback (most recent call last):
+  File "/workspaces/FlightHunter/scraper/brute_force.py", line 84, in run_brute_force
+    offers = provider.search_one(
+             ^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/FlightHunter/scraper/providers/air_canada_vacations.py", line 76, in search_one
+    self._fill_search_form(destination, departure_date, nights_min, nights_max)
+  File "/workspaces/FlightHunter/scraper/providers/air_canada_vacations.py", line 135, in _fill_search_form
+    self._fill_combobox(ORIGIN_INPUT_SELECTOR, ORIGIN_LISTBOX_SELECTOR, config.ORIGIN)
+  File "/workspaces/FlightHunter/scraper/providers/air_canada_vacations.py", line 125, in _fill_combobox
+    items.first.click(timeout=5000)
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/sync_api/_generated.py", line 17672, in click
+    self._sync(
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_locator.py", line 163, in click
+    return await self._frame._click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_frame.py", line 591, in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 563, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Locator.click: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator("#vacation_packages_tab-from-listbox li").first
+    - locator resolved to <li class="combo-message">Aucun résultat trouvé</li>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+      - waiting 100ms
+    10 × waiting for element to be visible, enabled and stable
+       - element is not visible
+     - retrying click action
+       - waiting 500ms
+
+2026-07-28 17:04:00,059 [INFO] scraper.brute_force: [32/48] air_canada_vacations: SNU le 2026-07-29
+2026-07-28 17:04:07,064 [ERROR] scraper.brute_force: Échec de recherche pour air_canada_vacations / SNU / 2026-07-29 (on continue)
+Traceback (most recent call last):
+  File "/workspaces/FlightHunter/scraper/brute_force.py", line 84, in run_brute_force
+    offers = provider.search_one(
+             ^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/FlightHunter/scraper/providers/air_canada_vacations.py", line 76, in search_one
+    self._fill_search_form(destination, departure_date, nights_min, nights_max)
+  File "/workspaces/FlightHunter/scraper/providers/air_canada_vacations.py", line 135, in _fill_search_form
+    self._fill_combobox(ORIGIN_INPUT_SELECTOR, ORIGIN_LISTBOX_SELECTOR, config.ORIGIN)
+  File "/workspaces/FlightHunter/scraper/providers/air_canada_vacations.py", line 125, in _fill_combobox
+    items.first.click(timeout=5000)
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/sync_api/_generated.py", line 17672, in click
+    self._sync(
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_locator.py", line 163, in click
+    return await self._frame._click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_frame.py", line 591, in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 563, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Locator.click: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator("#vacation_packages_tab-from-listbox li").first
+    - locator resolved to <li class="combo-message">Indiquez une ville, un code d'aéroport ou une pro…</li>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+      - waiting 100ms
+    10 × waiting for element to be visible, enabled and stable
+       - element is not visible
+     - retrying click action
+       - waiting 500ms
+
+2026-07-28 17:04:13,479 [INFO] scraper.brute_force: [33/48] air_canada_vacations: SNU le 2026-07-30
+2026-07-28 17:04:20,405 [ERROR] scraper.brute_force: Échec de recherche pour air_canada_vacations / SNU / 2026-07-30 (on continue)
+Traceback (most recent call last):
+  File "/workspaces/FlightHunter/scraper/brute_force.py", line 84, in run_brute_force
+    offers = provider.search_one(
+             ^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/FlightHunter/scraper/providers/air_canada_vacations.py", line 76, in search_one
+    self._fill_search_form(destination, departure_date, nights_min, nights_max)
+  File "/workspaces/FlightHunter/scraper/providers/air_canada_vacations.py", line 135, in _fill_search_form
+    self._fill_combobox(ORIGIN_INPUT_SELECTOR, ORIGIN_LISTBOX_SELECTOR, config.ORIGIN)
+  File "/workspaces/FlightHunter/scraper/providers/air_canada_vacations.py", line 125, in _fill_combobox
+    items.first.click(timeout=5000)
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/sync_api/_generated.py", line 17672, in click
+    self._sync(
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_locator.py", line 163, in click
+    return await self._frame._click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_frame.py", line 591, in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 563, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Locator.click: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator("#vacation_packages_tab-from-listbox li").first
+    - locator resolved to <li class="combo-message">Indiquez une ville, un code d'aéroport ou une pro…</li>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+      - waiting 100ms
+    10 × waiting for element to be visible, enabled and stable
+       - element is not visible
+     - retrying click action
+       - waiting 500ms
+
+2026-07-28 17:04:26,595 [INFO] scraper.brute_force: [34/48] air_canada_vacations: PVR le 2026-07-28
+2026-07-28 17:04:33,786 [ERROR] scraper.brute_force: Échec de recherche pour air_canada_vacations / PVR / 2026-07-28 (on continue)
+Traceback (most recent call last):
+  File "/workspaces/FlightHunter/scraper/brute_force.py", line 84, in run_brute_force
+    offers = provider.search_one(
+             ^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/FlightHunter/scraper/providers/air_canada_vacations.py", line 76, in search_one
+    self._fill_search_form(destination, departure_date, nights_min, nights_max)
+  File "/workspaces/FlightHunter/scraper/providers/air_canada_vacations.py", line 135, in _fill_search_form
+    self._fill_combobox(ORIGIN_INPUT_SELECTOR, ORIGIN_LISTBOX_SELECTOR, config.ORIGIN)
+  File "/workspaces/FlightHunter/scraper/providers/air_canada_vacations.py", line 125, in _fill_combobox
+    items.first.click(timeout=5000)
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/sync_api/_generated.py", line 17672, in click
+    self._sync(
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_locator.py", line 163, in click
+    return await self._frame._click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_frame.py", line 591, in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 563, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Locator.click: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator("#vacation_packages_tab-from-listbox li").first
+    - locator resolved to <li class="combo-message">Aucun résultat trouvé</li>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+      - waiting 100ms
+    10 × waiting for element to be visible, enabled and stable
+       - element is not visible
+     - retrying click action
+       - waiting 500ms
+
+2026-07-28 17:04:37,289 [INFO] scraper.brute_force: [35/48] air_canada_vacations: PVR le 2026-07-29
+2026-07-28 17:04:44,486 [ERROR] scraper.brute_force: Échec de recherche pour air_canada_vacations / PVR / 2026-07-29 (on continue)
+Traceback (most recent call last):
+  File "/workspaces/FlightHunter/scraper/brute_force.py", line 84, in run_brute_force
+    offers = provider.search_one(
+             ^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/FlightHunter/scraper/providers/air_canada_vacations.py", line 76, in search_one
+    self._fill_search_form(destination, departure_date, nights_min, nights_max)
+  File "/workspaces/FlightHunter/scraper/providers/air_canada_vacations.py", line 135, in _fill_search_form
+    self._fill_combobox(ORIGIN_INPUT_SELECTOR, ORIGIN_LISTBOX_SELECTOR, config.ORIGIN)
+  File "/workspaces/FlightHunter/scraper/providers/air_canada_vacations.py", line 125, in _fill_combobox
+    items.first.click(timeout=5000)
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/sync_api/_generated.py", line 17672, in click
+    self._sync(
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_locator.py", line 163, in click
+    return await self._frame._click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_frame.py", line 591, in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 563, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Locator.click: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator("#vacation_packages_tab-from-listbox li").first
+    - locator resolved to <li class="combo-message">Indiquez une ville, un code d'aéroport ou une pro…</li>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+      - waiting 100ms
+    10 × waiting for element to be visible, enabled and stable
+       - element is not visible
+     - retrying click action
+       - waiting 500ms
+
+2026-07-28 17:04:50,295 [INFO] scraper.brute_force: [36/48] air_canada_vacations: PVR le 2026-07-30
+2026-07-28 17:04:57,063 [ERROR] scraper.brute_force: Échec de recherche pour air_canada_vacations / PVR / 2026-07-30 (on continue)
+Traceback (most recent call last):
+  File "/workspaces/FlightHunter/scraper/brute_force.py", line 84, in run_brute_force
+    offers = provider.search_one(
+             ^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/FlightHunter/scraper/providers/air_canada_vacations.py", line 76, in search_one
+    self._fill_search_form(destination, departure_date, nights_min, nights_max)
+  File "/workspaces/FlightHunter/scraper/providers/air_canada_vacations.py", line 135, in _fill_search_form
+    self._fill_combobox(ORIGIN_INPUT_SELECTOR, ORIGIN_LISTBOX_SELECTOR, config.ORIGIN)
+  File "/workspaces/FlightHunter/scraper/providers/air_canada_vacations.py", line 125, in _fill_combobox
+    items.first.click(timeout=5000)
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/sync_api/_generated.py", line 17672, in click
+    self._sync(
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_locator.py", line 163, in click
+    return await self._frame._click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_frame.py", line 591, in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 563, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Locator.click: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator("#vacation_packages_tab-from-listbox li").first
+    - locator resolved to <li class="combo-message">Indiquez une ville, un code d'aéroport ou une pro…</li>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+      - waiting 100ms
+    10 × waiting for element to be visible, enabled and stable
+       - element is not visible
+     - retrying click action
+       - waiting 500ms
+
+2026-07-28 17:05:03,789 [INFO] scraper.brute_force: [37/48] air_canada_vacations: SJD le 2026-07-28
+2026-07-28 17:05:10,637 [ERROR] scraper.brute_force: Échec de recherche pour air_canada_vacations / SJD / 2026-07-28 (on continue)
+Traceback (most recent call last):
+  File "/workspaces/FlightHunter/scraper/brute_force.py", line 84, in run_brute_force
+    offers = provider.search_one(
+             ^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/FlightHunter/scraper/providers/air_canada_vacations.py", line 76, in search_one
+    self._fill_search_form(destination, departure_date, nights_min, nights_max)
+  File "/workspaces/FlightHunter/scraper/providers/air_canada_vacations.py", line 135, in _fill_search_form
+    self._fill_combobox(ORIGIN_INPUT_SELECTOR, ORIGIN_LISTBOX_SELECTOR, config.ORIGIN)
+  File "/workspaces/FlightHunter/scraper/providers/air_canada_vacations.py", line 125, in _fill_combobox
+    items.first.click(timeout=5000)
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/sync_api/_generated.py", line 17672, in click
+    self._sync(
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_locator.py", line 163, in click
+    return await self._frame._click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_frame.py", line 591, in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 563, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Locator.click: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator("#vacation_packages_tab-from-listbox li").first
+    - locator resolved to <li class="combo-message">Indiquez une ville, un code d'aéroport ou une pro…</li>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+      - waiting 100ms
+    10 × waiting for element to be visible, enabled and stable
+       - element is not visible
+     - retrying click action
+       - waiting 500ms
+
+2026-07-28 17:05:13,976 [INFO] scraper.brute_force: [38/48] air_canada_vacations: SJD le 2026-07-29
+2026-07-28 17:05:21,044 [ERROR] scraper.brute_force: Échec de recherche pour air_canada_vacations / SJD / 2026-07-29 (on continue)
+Traceback (most recent call last):
+  File "/workspaces/FlightHunter/scraper/brute_force.py", line 84, in run_brute_force
+    offers = provider.search_one(
+             ^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/FlightHunter/scraper/providers/air_canada_vacations.py", line 76, in search_one
+    self._fill_search_form(destination, departure_date, nights_min, nights_max)
+  File "/workspaces/FlightHunter/scraper/providers/air_canada_vacations.py", line 135, in _fill_search_form
+    self._fill_combobox(ORIGIN_INPUT_SELECTOR, ORIGIN_LISTBOX_SELECTOR, config.ORIGIN)
+  File "/workspaces/FlightHunter/scraper/providers/air_canada_vacations.py", line 125, in _fill_combobox
+    items.first.click(timeout=5000)
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/sync_api/_generated.py", line 17672, in click
+    self._sync(
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_locator.py", line 163, in click
+    return await self._frame._click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_frame.py", line 591, in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 563, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Locator.click: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator("#vacation_packages_tab-from-listbox li").first
+    - locator resolved to <li class="combo-message">Indiquez une ville, un code d'aéroport ou une pro…</li>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+      - waiting 100ms
+    9 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+      - waiting 500ms
+    - waiting for element to be visible, enabled and stable
+
+2026-07-28 17:05:26,063 [INFO] scraper.brute_force: [39/48] air_canada_vacations: SJD le 2026-07-30
+2026-07-28 17:05:33,230 [ERROR] scraper.brute_force: Échec de recherche pour air_canada_vacations / SJD / 2026-07-30 (on continue)
+Traceback (most recent call last):
+  File "/workspaces/FlightHunter/scraper/brute_force.py", line 84, in run_brute_force
+    offers = provider.search_one(
+             ^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/FlightHunter/scraper/providers/air_canada_vacations.py", line 76, in search_one
+    self._fill_search_form(destination, departure_date, nights_min, nights_max)
+  File "/workspaces/FlightHunter/scraper/providers/air_canada_vacations.py", line 135, in _fill_search_form
+    self._fill_combobox(ORIGIN_INPUT_SELECTOR, ORIGIN_LISTBOX_SELECTOR, config.ORIGIN)
+  File "/workspaces/FlightHunter/scraper/providers/air_canada_vacations.py", line 125, in _fill_combobox
+    items.first.click(timeout=5000)
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/sync_api/_generated.py", line 17672, in click
+    self._sync(
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_locator.py", line 163, in click
+    return await self._frame._click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_frame.py", line 591, in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 563, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Locator.click: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator("#vacation_packages_tab-from-listbox li").first
+    - locator resolved to <li class="combo-message">Aucun résultat trouvé</li>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+      - waiting 100ms
+    10 × waiting for element to be visible, enabled and stable
+       - element is not visible
+     - retrying click action
+       - waiting 500ms
+
+2026-07-28 17:05:37,387 [INFO] scraper.brute_force: [40/48] air_canada_vacations: HUX le 2026-07-28
+2026-07-28 17:05:44,536 [ERROR] scraper.brute_force: Échec de recherche pour air_canada_vacations / HUX / 2026-07-28 (on continue)
+Traceback (most recent call last):
+  File "/workspaces/FlightHunter/scraper/brute_force.py", line 84, in run_brute_force
+    offers = provider.search_one(
+             ^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/FlightHunter/scraper/providers/air_canada_vacations.py", line 76, in search_one
+    self._fill_search_form(destination, departure_date, nights_min, nights_max)
+  File "/workspaces/FlightHunter/scraper/providers/air_canada_vacations.py", line 135, in _fill_search_form
+    self._fill_combobox(ORIGIN_INPUT_SELECTOR, ORIGIN_LISTBOX_SELECTOR, config.ORIGIN)
+  File "/workspaces/FlightHunter/scraper/providers/air_canada_vacations.py", line 125, in _fill_combobox
+    items.first.click(timeout=5000)
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/sync_api/_generated.py", line 17672, in click
+    self._sync(
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_locator.py", line 163, in click
+    return await self._frame._click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_frame.py", line 591, in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 563, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Locator.click: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator("#vacation_packages_tab-from-listbox li").first
+    - locator resolved to <li class="combo-message">Indiquez une ville, un code d'aéroport ou une pro…</li>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+      - waiting 100ms
+    10 × waiting for element to be visible, enabled and stable
+       - element is not visible
+     - retrying click action
+       - waiting 500ms
+
+2026-07-28 17:05:49,237 [INFO] scraper.brute_force: [41/48] air_canada_vacations: HUX le 2026-07-29
+2026-07-28 17:05:56,152 [ERROR] scraper.brute_force: Échec de recherche pour air_canada_vacations / HUX / 2026-07-29 (on continue)
+Traceback (most recent call last):
+  File "/workspaces/FlightHunter/scraper/brute_force.py", line 84, in run_brute_force
+    offers = provider.search_one(
+             ^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/FlightHunter/scraper/providers/air_canada_vacations.py", line 76, in search_one
+    self._fill_search_form(destination, departure_date, nights_min, nights_max)
+  File "/workspaces/FlightHunter/scraper/providers/air_canada_vacations.py", line 135, in _fill_search_form
+    self._fill_combobox(ORIGIN_INPUT_SELECTOR, ORIGIN_LISTBOX_SELECTOR, config.ORIGIN)
+  File "/workspaces/FlightHunter/scraper/providers/air_canada_vacations.py", line 125, in _fill_combobox
+    items.first.click(timeout=5000)
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/sync_api/_generated.py", line 17672, in click
+    self._sync(
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_locator.py", line 163, in click
+    return await self._frame._click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_frame.py", line 591, in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 563, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Locator.click: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator("#vacation_packages_tab-from-listbox li").first
+    - locator resolved to <li class="combo-message">Indiquez une ville, un code d'aéroport ou une pro…</li>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+      - waiting 100ms
+    10 × waiting for element to be visible, enabled and stable
+       - element is not visible
+     - retrying click action
+       - waiting 500ms
+
+2026-07-28 17:06:02,962 [INFO] scraper.brute_force: [42/48] air_canada_vacations: HUX le 2026-07-30
+2026-07-28 17:06:09,916 [ERROR] scraper.brute_force: Échec de recherche pour air_canada_vacations / HUX / 2026-07-30 (on continue)
+Traceback (most recent call last):
+  File "/workspaces/FlightHunter/scraper/brute_force.py", line 84, in run_brute_force
+    offers = provider.search_one(
+             ^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/FlightHunter/scraper/providers/air_canada_vacations.py", line 76, in search_one
+    self._fill_search_form(destination, departure_date, nights_min, nights_max)
+  File "/workspaces/FlightHunter/scraper/providers/air_canada_vacations.py", line 135, in _fill_search_form
+    self._fill_combobox(ORIGIN_INPUT_SELECTOR, ORIGIN_LISTBOX_SELECTOR, config.ORIGIN)
+  File "/workspaces/FlightHunter/scraper/providers/air_canada_vacations.py", line 125, in _fill_combobox
+    items.first.click(timeout=5000)
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/sync_api/_generated.py", line 17672, in click
+    self._sync(
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_locator.py", line 163, in click
+    return await self._frame._click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_frame.py", line 591, in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 563, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Locator.click: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator("#vacation_packages_tab-from-listbox li").first
+    - locator resolved to <li class="combo-message">Indiquez une ville, un code d'aéroport ou une pro…</li>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+      - waiting 100ms
+    10 × waiting for element to be visible, enabled and stable
+       - element is not visible
+     - retrying click action
+       - waiting 500ms
+
+2026-07-28 17:06:14,147 [INFO] scraper.brute_force: [43/48] air_canada_vacations: MBJ le 2026-07-28
+2026-07-28 17:06:21,241 [ERROR] scraper.brute_force: Échec de recherche pour air_canada_vacations / MBJ / 2026-07-28 (on continue)
+Traceback (most recent call last):
+  File "/workspaces/FlightHunter/scraper/brute_force.py", line 84, in run_brute_force
+    offers = provider.search_one(
+             ^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/FlightHunter/scraper/providers/air_canada_vacations.py", line 76, in search_one
+    self._fill_search_form(destination, departure_date, nights_min, nights_max)
+  File "/workspaces/FlightHunter/scraper/providers/air_canada_vacations.py", line 135, in _fill_search_form
+    self._fill_combobox(ORIGIN_INPUT_SELECTOR, ORIGIN_LISTBOX_SELECTOR, config.ORIGIN)
+  File "/workspaces/FlightHunter/scraper/providers/air_canada_vacations.py", line 125, in _fill_combobox
+    items.first.click(timeout=5000)
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/sync_api/_generated.py", line 17672, in click
+    self._sync(
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_locator.py", line 163, in click
+    return await self._frame._click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_frame.py", line 591, in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 563, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Locator.click: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator("#vacation_packages_tab-from-listbox li").first
+    - locator resolved to <li class="combo-message">Indiquez une ville, un code d'aéroport ou une pro…</li>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+      - waiting 100ms
+    10 × waiting for element to be visible, enabled and stable
+       - element is not visible
+     - retrying click action
+       - waiting 500ms
+
+2026-07-28 17:06:26,845 [INFO] scraper.brute_force: [44/48] air_canada_vacations: MBJ le 2026-07-29
+2026-07-28 17:06:33,835 [ERROR] scraper.brute_force: Échec de recherche pour air_canada_vacations / MBJ / 2026-07-29 (on continue)
+Traceback (most recent call last):
+  File "/workspaces/FlightHunter/scraper/brute_force.py", line 84, in run_brute_force
+    offers = provider.search_one(
+             ^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/FlightHunter/scraper/providers/air_canada_vacations.py", line 76, in search_one
+    self._fill_search_form(destination, departure_date, nights_min, nights_max)
+  File "/workspaces/FlightHunter/scraper/providers/air_canada_vacations.py", line 135, in _fill_search_form
+    self._fill_combobox(ORIGIN_INPUT_SELECTOR, ORIGIN_LISTBOX_SELECTOR, config.ORIGIN)
+  File "/workspaces/FlightHunter/scraper/providers/air_canada_vacations.py", line 125, in _fill_combobox
+    items.first.click(timeout=5000)
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/sync_api/_generated.py", line 17672, in click
+    self._sync(
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_locator.py", line 163, in click
+    return await self._frame._click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_frame.py", line 591, in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 563, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Locator.click: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator("#vacation_packages_tab-from-listbox li").first
+    - locator resolved to <li class="combo-message">Indiquez une ville, un code d'aéroport ou une pro…</li>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+      - waiting 100ms
+    10 × waiting for element to be visible, enabled and stable
+       - element is not visible
+     - retrying click action
+       - waiting 500ms
+
+2026-07-28 17:06:40,741 [INFO] scraper.brute_force: [45/48] air_canada_vacations: MBJ le 2026-07-30
+2026-07-28 17:06:47,719 [ERROR] scraper.brute_force: Échec de recherche pour air_canada_vacations / MBJ / 2026-07-30 (on continue)
+Traceback (most recent call last):
+  File "/workspaces/FlightHunter/scraper/brute_force.py", line 84, in run_brute_force
+    offers = provider.search_one(
+             ^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/FlightHunter/scraper/providers/air_canada_vacations.py", line 76, in search_one
+    self._fill_search_form(destination, departure_date, nights_min, nights_max)
+  File "/workspaces/FlightHunter/scraper/providers/air_canada_vacations.py", line 135, in _fill_search_form
+    self._fill_combobox(ORIGIN_INPUT_SELECTOR, ORIGIN_LISTBOX_SELECTOR, config.ORIGIN)
+  File "/workspaces/FlightHunter/scraper/providers/air_canada_vacations.py", line 125, in _fill_combobox
+    items.first.click(timeout=5000)
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/sync_api/_generated.py", line 17672, in click
+    self._sync(
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_locator.py", line 163, in click
+    return await self._frame._click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_frame.py", line 591, in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 563, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Locator.click: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator("#vacation_packages_tab-from-listbox li").first
+    - locator resolved to <li class="combo-message">Indiquez une ville, un code d'aéroport ou une pro…</li>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+      - waiting 100ms
+    10 × waiting for element to be visible, enabled and stable
+       - element is not visible
+     - retrying click action
+       - waiting 500ms
+
+2026-07-28 17:06:51,767 [INFO] scraper.brute_force: [46/48] air_canada_vacations: POP le 2026-07-28
+2026-07-28 17:06:58,941 [ERROR] scraper.brute_force: Échec de recherche pour air_canada_vacations / POP / 2026-07-28 (on continue)
+Traceback (most recent call last):
+  File "/workspaces/FlightHunter/scraper/brute_force.py", line 84, in run_brute_force
+    offers = provider.search_one(
+             ^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/FlightHunter/scraper/providers/air_canada_vacations.py", line 76, in search_one
+    self._fill_search_form(destination, departure_date, nights_min, nights_max)
+  File "/workspaces/FlightHunter/scraper/providers/air_canada_vacations.py", line 135, in _fill_search_form
+    self._fill_combobox(ORIGIN_INPUT_SELECTOR, ORIGIN_LISTBOX_SELECTOR, config.ORIGIN)
+  File "/workspaces/FlightHunter/scraper/providers/air_canada_vacations.py", line 125, in _fill_combobox
+    items.first.click(timeout=5000)
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/sync_api/_generated.py", line 17672, in click
+    self._sync(
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_locator.py", line 163, in click
+    return await self._frame._click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_frame.py", line 591, in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 563, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Locator.click: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator("#vacation_packages_tab-from-listbox li").first
+    - locator resolved to <li class="combo-message">Indiquez une ville, un code d'aéroport ou une pro…</li>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+      - waiting 100ms
+    10 × waiting for element to be visible, enabled and stable
+       - element is not visible
+     - retrying click action
+       - waiting 500ms
+
+2026-07-28 17:07:03,823 [INFO] scraper.brute_force: [47/48] air_canada_vacations: POP le 2026-07-29
+2026-07-28 17:07:10,832 [ERROR] scraper.brute_force: Échec de recherche pour air_canada_vacations / POP / 2026-07-29 (on continue)
+Traceback (most recent call last):
+  File "/workspaces/FlightHunter/scraper/brute_force.py", line 84, in run_brute_force
+    offers = provider.search_one(
+             ^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/FlightHunter/scraper/providers/air_canada_vacations.py", line 76, in search_one
+    self._fill_search_form(destination, departure_date, nights_min, nights_max)
+  File "/workspaces/FlightHunter/scraper/providers/air_canada_vacations.py", line 135, in _fill_search_form
+    self._fill_combobox(ORIGIN_INPUT_SELECTOR, ORIGIN_LISTBOX_SELECTOR, config.ORIGIN)
+  File "/workspaces/FlightHunter/scraper/providers/air_canada_vacations.py", line 125, in _fill_combobox
+    items.first.click(timeout=5000)
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/sync_api/_generated.py", line 17672, in click
+    self._sync(
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_locator.py", line 163, in click
+    return await self._frame._click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_frame.py", line 591, in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 563, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Locator.click: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator("#vacation_packages_tab-from-listbox li").first
+    - locator resolved to <li class="combo-message">Indiquez une ville, un code d'aéroport ou une pro…</li>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+      - waiting 100ms
+    10 × waiting for element to be visible, enabled and stable
+       - element is not visible
+     - retrying click action
+       - waiting 500ms
+
+2026-07-28 17:07:17,086 [INFO] scraper.brute_force: [48/48] air_canada_vacations: POP le 2026-07-30
+2026-07-28 17:07:24,128 [ERROR] scraper.brute_force: Échec de recherche pour air_canada_vacations / POP / 2026-07-30 (on continue)
+Traceback (most recent call last):
+  File "/workspaces/FlightHunter/scraper/brute_force.py", line 84, in run_brute_force
+    offers = provider.search_one(
+             ^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/FlightHunter/scraper/providers/air_canada_vacations.py", line 76, in search_one
+    self._fill_search_form(destination, departure_date, nights_min, nights_max)
+  File "/workspaces/FlightHunter/scraper/providers/air_canada_vacations.py", line 135, in _fill_search_form
+    self._fill_combobox(ORIGIN_INPUT_SELECTOR, ORIGIN_LISTBOX_SELECTOR, config.ORIGIN)
+  File "/workspaces/FlightHunter/scraper/providers/air_canada_vacations.py", line 125, in _fill_combobox
+    items.first.click(timeout=5000)
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/sync_api/_generated.py", line 17672, in click
+    self._sync(
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_locator.py", line 163, in click
+    return await self._frame._click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_frame.py", line 591, in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 563, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Locator.click: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator("#vacation_packages_tab-from-listbox li").first
+    - locator resolved to <li class="combo-message">Indiquez une ville, un code d'aéroport ou une pro…</li>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+      - waiting 100ms
+    10 × waiting for element to be visible, enabled and stable
+       - element is not visible
+     - retrying click action
+       - waiting 500ms
+
+2026-07-28 17:07:28,111 [INFO] scraper.aggregate: 0 offre(s) au total, 0 sous le budget de 12000 $ CAD
+Aucune offre trouvée sous le budget.
+
+Résultats complets : output/offers_20260728_170728.csv / output/offers_20260728_170728.json
