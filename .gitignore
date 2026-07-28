@@ -45,6 +45,9 @@ venv.bak/
 .firebase/
 firebase-debug.log*
 
+# Scraper (module expérimental, voir scraper/README.md)
+scraper/output/
+
 # OS generated files
 .DS_Store
 .DS_Store?
