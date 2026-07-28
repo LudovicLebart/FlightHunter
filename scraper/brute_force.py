@@ -20,10 +20,17 @@ logger = logging.getLogger("scraper.brute_force")
 def run_brute_force(
     provider_names: list[str] | None = None,
     debug: bool = False,
+    headed: bool = False,
 ) -> list[Offer]:
     """Combine toutes les destinations actives x dates de départ pour les
     providers demandés, et retourne la liste brute des offres trouvées
     (avant tri/filtre — voir aggregate.py).
+
+    `debug` active les logs verbeux et les dumps HTML/capture en cas
+    d'erreur, mais garde le navigateur headless par défaut — un conteneur
+    (Codespaces, CI...) n'a pas de serveur d'affichage. `headed` force un
+    navigateur visible, à n'utiliser que sur une machine avec un écran
+    (ou avec xvfb-run).
     """
     provider_names = provider_names or config.ENABLED_PROVIDERS
     destinations = config.active_destinations()
@@ -42,7 +49,7 @@ def run_brute_force(
     done = 0
 
     with sync_playwright() as pw:
-        browser = pw.chromium.launch(headless=not debug)
+        browser = pw.chromium.launch(headless=not headed)
         try:
             for provider_name in provider_names:
                 provider_cls = PROVIDER_CLASSES.get(provider_name)

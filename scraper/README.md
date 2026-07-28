@@ -53,7 +53,9 @@ playwright install chromium
 
 ```bash
 python run.py                  # recherche complète, résultats triés par prix
-python run.py --debug          # navigateur visible + logs verbeux + dumps HTML en cas d'erreur
+python run.py --debug          # logs verbeux + dumps HTML/capture en cas d'erreur (headless)
+python run.py --debug --headed # + navigateur visible — PC/Mac avec écran uniquement,
+                                # ne fonctionne pas dans un conteneur/Codespace sans xvfb
 python run.py --provider transat   # limiter à un seul voyagiste
 python run.py --max-price 8000     # filtrer un budget différent
 ```

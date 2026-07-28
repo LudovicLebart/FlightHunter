@@ -32,7 +32,13 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--debug",
         action="store_true",
-        help="Navigateur visible + logs verbeux + dumps HTML/capture en cas d'erreur",
+        help="Logs verbeux + dumps HTML/capture en cas d'erreur (navigateur toujours headless)",
+    )
+    parser.add_argument(
+        "--headed",
+        action="store_true",
+        help="Navigateur visible (nécessite un serveur d'affichage — ne fonctionne PAS dans un "
+        "conteneur/Codespace sans xvfb)",
     )
     return parser.parse_args()
 
@@ -47,7 +53,7 @@ def main() -> None:
 
     os.makedirs(config.OUTPUT_DIR, exist_ok=True)
 
-    offers = run_brute_force(provider_names=args.providers, debug=args.debug)
+    offers = run_brute_force(provider_names=args.providers, debug=args.debug, headed=args.headed)
     filtered = sort_and_filter(offers, max_price=args.max_price)
 
     ts = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
