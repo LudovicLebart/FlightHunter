@@ -7,20 +7,31 @@ ponctuel : trouver un séjour tout-inclus au départ de YUL, dans les 2
 prochains jours, chez des voyagistes qui ne vendent pas leurs forfaits via
 API publique.
 
-## ⚠️ Important — non testé en conditions réelles
+## État des sélecteurs (mise à jour 2026-07-28)
 
-Ce code a été écrit **sans accès réseau** (l'environnement où il a été rédigé
-n'a pas d'accès internet général). Les sélecteurs CSS/XPath dans
-`providers/transat.py` et `providers/air_canada_vacations.py` sont donc des
-**meilleures suppositions**, pas des valeurs vérifiées contre le DOM réel.
-Au premier lancement, il est très probable qu'il faille les ajuster.
+Les URLs et sélecteurs ont été vérifiés contre le DOM réel via
+`inspect_site.py` (exécuté dans un Codespace, résultats analysés hors ligne).
 
-Pour faciliter le débogage :
-- Chaque étape de scraping est isolée avec try/except explicite.
-- En cas d'échec de sélecteur, une capture d'écran + le HTML de la page sont
-  sauvegardés dans `scraper/output/debug/` pour inspection.
-- Lance avec `--debug` pour un navigateur non-headless (visible) et des logs
-  verbeux.
+- **Transat** (`providers/transat.py`) : solide. Le site expose ses
+  résultats sous forme de JSON structuré complet (prix, dates, formule
+  repas...) dans un attribut `gtm-package-list` — le provider le parse
+  directement plutôt que de scraper des cartes CSS, beaucoup plus robuste.
+  Sélecteurs de formulaire (origine, filtre de dates) vérifiés. **Limites
+  connues** : seul le premier lot de résultats (~15 hôtels) est récupéré, pas
+  de pagination ; le filtre de durée (10-14 nuits) n'est pas encore piloté
+  côté widget (les résultats sont filtrés a posteriori sur `tripDuration`,
+  donc 0 offre si le site ne propose que des séjours 7 nuits sur cette
+  période).
+- **Vacances Air Canada** (`providers/air_canada_vacations.py`) : partiel.
+  Champs origine/destination (comboboxes texte) et bouton de recherche
+  vérifiés. Le calendrier de dates (vue-datepicker) et la page de résultats
+  n'ont **jamais été observés en conditions réelles** — best-effort,
+  enveloppé pour ne pas faire planter le run, mais probablement à corriger.
+
+En cas d'échec de sélecteur, une capture d'écran + le HTML de la page sont
+sauvegardés dans `scraper/output/debug/` (toujours en mode `--debug` pour
+Vacances Air Canada après soumission du formulaire). Utilise ces dumps pour
+finaliser les sélecteurs manquants.
 
 ## Portée
 
