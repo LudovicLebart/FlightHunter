@@ -18,3 +18,46 @@ Création de FlightHunter, inspiré de l'architecture de GuitarHunter, mais déd
 **Prochaines étapes :**
 *   Tester la connexion à l'API Amadeus avec des requêtes réelles.
 *   Mettre en place la base du projet Frontend React.
+
+## [2026-07-28] - Scraper brute force tout-inclus (exception assumée à l'AI_BRIEFING)
+
+**Contexte :**
+Besoin ponctuel et urgent : trouver un séjour tout-inclus au départ de YUL,
+départ dans les 2 jours, 10 à 14 nuits, budget max 12 000 $ CAD (2 pax),
+chez des voyagistes qui ne vendent pas leurs forfaits via API publique
+(donc hors du périmètre Amadeus du backend officiel).
+
+**Décision :** l'utilisateur a explicitement demandé d'ignorer le principe
+"API only, no scraping" de `AI_BRIEFING.md` pour ce besoin. Plutôt que de
+modifier l'architecture du backend officiel, le scraping a été isolé dans
+un module séparé et non intégré : `scraper/` (voir `scraper/README.md`
+pour le détail). Le reste du projet (backend Amadeus, principes de
+l'AI_BRIEFING) n'est pas remis en cause par ce module.
+
+**Contenu du module `scraper/` :**
+*   Recherche combinatoire (destination x date de départ) chez Air Transat
+    et Vacances Air Canada. Sunwing et WestJet exclus explicitement
+    (préavis de grève sur des vacances déjà payées par l'utilisateur).
+*   Destinations filtrées pour exclure celles à fort risque de sargasses
+    en saison (Cancún/Riviera Maya, Punta Cana) ; celles à risque modéré
+    sont incluses mais marquées, à vérifier manuellement avant réservation.
+*   Tri par prix total, export CSV/JSON, top 10 en console.
+
+**Contrainte découverte : pas d'exécution possible depuis cette session**
+L'environnement d'exécution (Claude Code) où ce module a été écrit n'a
+qu'un accès réseau restreint à une liste blanche d'infrastructure de dev
+(GitHub, npm, PyPI...) — confirmé bloqué pour tout domaine web général,
+y compris via un outil de fetch alternatif (jusqu'à Wikipédia). Le
+scraper n'a donc **jamais pu être exécuté ni ses sélecteurs CSS vérifiés**
+contre les sites réels — voir les avertissements dans `scraper/README.md`.
+
+**Solution de contournement retenue :** exécution via GitHub Codespaces
+(accès internet complet, utilisable depuis un simple navigateur/téléphone
+quand aucun poste local n'est disponible), avec itération sur les
+sélecteurs au fur et à mesure des erreurs remontées.
+
+**Prochaines étapes :**
+*   Lancer `scraper/run.py --debug` dans un Codespace et corriger les
+    sélecteurs CSS des deux providers en fonction des erreurs réelles.
+*   Une fois validé, envisager d'ajouter d'autres voyagistes tout-inclus
+    (hors Sunwing/WestJet) si le besoin se répète.
