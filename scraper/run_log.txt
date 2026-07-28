@@ -1,0 +1,457 @@
+2026-07-28 18:03:46,290 [INFO] scraper.brute_force: Brute force: 2 provider(s) x 8 destination(s) x 8 date(s) = 128 recherches
+2026-07-28 18:03:46,290 [DEBUG] asyncio: Using selector: EpollSelector
+2026-07-28 18:03:47,041 [INFO] scraper.brute_force: [1/128] transat: VRA le 2026-08-02
+2026-07-28 18:04:01,245 [WARNING] scraper.transat: Impossible de sélectionner le filtre de dates sur Transat (sélecteur à vérifier, on continue sans filtre de date)
+2026-07-28 18:04:01,826 [INFO] scraper.transat: Debug sauvegardé: output/debug/transat_date_select_fail_20260728_180401.png / output/debug/transat_date_select_fail_20260728_180401.html
+2026-07-28 18:04:04,843 [INFO] scraper.transat: Transat: 15 forfait(s) récupéré(s) en une recherche
+2026-07-28 18:04:04,844 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:04:09,668 [INFO] scraper.brute_force: [2/128] transat: VRA le 2026-08-03
+2026-07-28 18:04:09,668 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:04:15,516 [INFO] scraper.brute_force: [3/128] transat: VRA le 2026-08-04
+2026-07-28 18:04:15,517 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:04:20,696 [INFO] scraper.brute_force: [4/128] transat: VRA le 2026-08-05
+2026-07-28 18:04:20,696 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:04:24,517 [INFO] scraper.brute_force: [5/128] transat: VRA le 2026-08-06
+2026-07-28 18:04:24,517 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:04:29,499 [INFO] scraper.brute_force: [6/128] transat: VRA le 2026-08-07
+2026-07-28 18:04:29,499 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:04:35,211 [INFO] scraper.brute_force: [7/128] transat: VRA le 2026-08-08
+2026-07-28 18:04:35,211 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:04:41,499 [INFO] scraper.brute_force: [8/128] transat: VRA le 2026-08-09
+2026-07-28 18:04:41,500 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:04:44,918 [INFO] scraper.brute_force: [9/128] transat: CCC le 2026-08-02
+2026-07-28 18:04:44,918 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:04:50,069 [INFO] scraper.brute_force: [10/128] transat: CCC le 2026-08-03
+2026-07-28 18:04:50,070 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:04:56,889 [INFO] scraper.brute_force: [11/128] transat: CCC le 2026-08-04
+2026-07-28 18:04:56,889 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:05:01,548 [INFO] scraper.brute_force: [12/128] transat: CCC le 2026-08-05
+2026-07-28 18:05:01,548 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:05:06,266 [INFO] scraper.brute_force: [13/128] transat: CCC le 2026-08-06
+2026-07-28 18:05:06,266 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:05:12,130 [INFO] scraper.brute_force: [14/128] transat: CCC le 2026-08-07
+2026-07-28 18:05:12,130 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:05:16,518 [INFO] scraper.brute_force: [15/128] transat: CCC le 2026-08-08
+2026-07-28 18:05:16,518 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:05:20,789 [INFO] scraper.brute_force: [16/128] transat: CCC le 2026-08-09
+2026-07-28 18:05:20,789 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:05:27,095 [INFO] scraper.brute_force: [17/128] transat: SNU le 2026-08-02
+2026-07-28 18:05:27,095 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:05:30,126 [INFO] scraper.brute_force: [18/128] transat: SNU le 2026-08-03
+2026-07-28 18:05:30,126 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:05:35,582 [INFO] scraper.brute_force: [19/128] transat: SNU le 2026-08-04
+2026-07-28 18:05:35,582 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:05:39,898 [INFO] scraper.brute_force: [20/128] transat: SNU le 2026-08-05
+2026-07-28 18:05:39,898 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:05:44,445 [INFO] scraper.brute_force: [21/128] transat: SNU le 2026-08-06
+2026-07-28 18:05:44,445 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:05:50,191 [INFO] scraper.brute_force: [22/128] transat: SNU le 2026-08-07
+2026-07-28 18:05:50,192 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:05:53,863 [INFO] scraper.brute_force: [23/128] transat: SNU le 2026-08-08
+2026-07-28 18:05:53,864 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:05:59,032 [INFO] scraper.brute_force: [24/128] transat: SNU le 2026-08-09
+2026-07-28 18:05:59,032 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:06:03,852 [INFO] scraper.brute_force: [25/128] transat: PVR le 2026-08-02
+2026-07-28 18:06:03,852 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:06:07,527 [INFO] scraper.brute_force: [26/128] transat: PVR le 2026-08-03
+2026-07-28 18:06:07,527 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:06:11,086 [INFO] scraper.brute_force: [27/128] transat: PVR le 2026-08-04
+2026-07-28 18:06:11,086 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:06:15,506 [INFO] scraper.brute_force: [28/128] transat: PVR le 2026-08-05
+2026-07-28 18:06:15,506 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:06:22,365 [INFO] scraper.brute_force: [29/128] transat: PVR le 2026-08-06
+2026-07-28 18:06:22,366 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:06:26,064 [INFO] scraper.brute_force: [30/128] transat: PVR le 2026-08-07
+2026-07-28 18:06:26,064 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:06:30,082 [INFO] scraper.brute_force: [31/128] transat: PVR le 2026-08-08
+2026-07-28 18:06:30,083 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:06:36,271 [INFO] scraper.brute_force: [32/128] transat: PVR le 2026-08-09
+2026-07-28 18:06:36,271 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:06:42,340 [INFO] scraper.brute_force: [33/128] transat: SJD le 2026-08-02
+2026-07-28 18:06:42,340 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:06:48,161 [INFO] scraper.brute_force: [34/128] transat: SJD le 2026-08-03
+2026-07-28 18:06:48,161 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:06:54,226 [INFO] scraper.brute_force: [35/128] transat: SJD le 2026-08-04
+2026-07-28 18:06:54,226 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:06:58,806 [INFO] scraper.brute_force: [36/128] transat: SJD le 2026-08-05
+2026-07-28 18:06:58,807 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:07:05,784 [INFO] scraper.brute_force: [37/128] transat: SJD le 2026-08-06
+2026-07-28 18:07:05,784 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:07:12,252 [INFO] scraper.brute_force: [38/128] transat: SJD le 2026-08-07
+2026-07-28 18:07:12,252 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:07:19,057 [INFO] scraper.brute_force: [39/128] transat: SJD le 2026-08-08
+2026-07-28 18:07:19,057 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:07:24,261 [INFO] scraper.brute_force: [40/128] transat: SJD le 2026-08-09
+2026-07-28 18:07:24,261 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:07:28,390 [INFO] scraper.brute_force: [41/128] transat: HUX le 2026-08-02
+2026-07-28 18:07:28,390 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:07:34,428 [INFO] scraper.brute_force: [42/128] transat: HUX le 2026-08-03
+2026-07-28 18:07:34,428 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:07:40,472 [INFO] scraper.brute_force: [43/128] transat: HUX le 2026-08-04
+2026-07-28 18:07:40,472 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:07:44,364 [INFO] scraper.brute_force: [44/128] transat: HUX le 2026-08-05
+2026-07-28 18:07:44,364 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:07:48,769 [INFO] scraper.brute_force: [45/128] transat: HUX le 2026-08-06
+2026-07-28 18:07:48,769 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:07:54,007 [INFO] scraper.brute_force: [46/128] transat: HUX le 2026-08-07
+2026-07-28 18:07:54,007 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:07:57,246 [INFO] scraper.brute_force: [47/128] transat: HUX le 2026-08-08
+2026-07-28 18:07:57,246 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:08:00,698 [INFO] scraper.brute_force: [48/128] transat: HUX le 2026-08-09
+2026-07-28 18:08:00,698 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:08:04,006 [INFO] scraper.brute_force: [49/128] transat: MBJ le 2026-08-02
+2026-07-28 18:08:04,006 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:08:07,752 [INFO] scraper.brute_force: [50/128] transat: MBJ le 2026-08-03
+2026-07-28 18:08:07,752 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:08:12,878 [INFO] scraper.brute_force: [51/128] transat: MBJ le 2026-08-04
+2026-07-28 18:08:12,878 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:08:17,795 [INFO] scraper.brute_force: [52/128] transat: MBJ le 2026-08-05
+2026-07-28 18:08:17,795 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:08:23,668 [INFO] scraper.brute_force: [53/128] transat: MBJ le 2026-08-06
+2026-07-28 18:08:23,668 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:08:27,546 [INFO] scraper.brute_force: [54/128] transat: MBJ le 2026-08-07
+2026-07-28 18:08:27,547 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:08:30,694 [INFO] scraper.brute_force: [55/128] transat: MBJ le 2026-08-08
+2026-07-28 18:08:30,694 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:08:35,964 [INFO] scraper.brute_force: [56/128] transat: MBJ le 2026-08-09
+2026-07-28 18:08:35,964 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:08:39,889 [INFO] scraper.brute_force: [57/128] transat: POP le 2026-08-02
+2026-07-28 18:08:39,889 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:08:46,191 [INFO] scraper.brute_force: [58/128] transat: POP le 2026-08-03
+2026-07-28 18:08:46,191 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:08:50,384 [INFO] scraper.brute_force: [59/128] transat: POP le 2026-08-04
+2026-07-28 18:08:50,384 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:08:53,929 [INFO] scraper.brute_force: [60/128] transat: POP le 2026-08-05
+2026-07-28 18:08:53,929 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:08:58,714 [INFO] scraper.brute_force: [61/128] transat: POP le 2026-08-06
+2026-07-28 18:08:58,714 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:09:04,150 [INFO] scraper.brute_force: [62/128] transat: POP le 2026-08-07
+2026-07-28 18:09:04,151 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:09:07,748 [INFO] scraper.brute_force: [63/128] transat: POP le 2026-08-08
+2026-07-28 18:09:07,748 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:09:14,648 [INFO] scraper.brute_force: [64/128] transat: POP le 2026-08-09
+2026-07-28 18:09:14,649 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:09:20,280 [INFO] scraper.brute_force: [65/128] air_canada_vacations: VRA le 2026-08-02
+2026-07-28 18:09:29,703 [WARNING] scraper.air_canada_vacations: Impossible de remplir le formulaire pour VRA le 2026-08-02 (sélecteur à vérifier)
+2026-07-28 18:09:31,547 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_form_fail_VRA_2026-08-02_20260728_180929.png / output/debug/air_canada_vacations_form_fail_VRA_2026-08-02_20260728_180929.html
+2026-07-28 18:09:31,547 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:09:34,788 [INFO] scraper.brute_force: [66/128] air_canada_vacations: VRA le 2026-08-03
+2026-07-28 18:09:47,597 [WARNING] scraper.air_canada_vacations: Impossible de remplir le formulaire pour VRA le 2026-08-03 (sélecteur à vérifier)
+2026-07-28 18:09:49,504 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_form_fail_VRA_2026-08-03_20260728_180947.png / output/debug/air_canada_vacations_form_fail_VRA_2026-08-03_20260728_180947.html
+2026-07-28 18:09:49,504 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:09:54,271 [INFO] scraper.brute_force: [67/128] air_canada_vacations: VRA le 2026-08-04
+2026-07-28 18:10:07,685 [WARNING] scraper.air_canada_vacations: Impossible de remplir le formulaire pour VRA le 2026-08-04 (sélecteur à vérifier)
+2026-07-28 18:10:09,664 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_form_fail_VRA_2026-08-04_20260728_181007.png / output/debug/air_canada_vacations_form_fail_VRA_2026-08-04_20260728_181007.html
+2026-07-28 18:10:09,664 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:10:13,214 [INFO] scraper.brute_force: [68/128] air_canada_vacations: VRA le 2026-08-05
+2026-07-28 18:10:26,037 [WARNING] scraper.air_canada_vacations: Impossible de remplir le formulaire pour VRA le 2026-08-05 (sélecteur à vérifier)
+2026-07-28 18:10:28,050 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_form_fail_VRA_2026-08-05_20260728_181026.png / output/debug/air_canada_vacations_form_fail_VRA_2026-08-05_20260728_181026.html
+2026-07-28 18:10:28,051 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:10:31,426 [INFO] scraper.brute_force: [69/128] air_canada_vacations: VRA le 2026-08-06
+2026-07-28 18:10:44,191 [WARNING] scraper.air_canada_vacations: Impossible de remplir le formulaire pour VRA le 2026-08-06 (sélecteur à vérifier)
+2026-07-28 18:10:45,878 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_form_fail_VRA_2026-08-06_20260728_181044.png / output/debug/air_canada_vacations_form_fail_VRA_2026-08-06_20260728_181044.html
+2026-07-28 18:10:45,878 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:10:49,954 [INFO] scraper.brute_force: [70/128] air_canada_vacations: VRA le 2026-08-07
+2026-07-28 18:11:03,384 [WARNING] scraper.air_canada_vacations: Impossible de remplir le formulaire pour VRA le 2026-08-07 (sélecteur à vérifier)
+2026-07-28 18:11:04,722 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_form_fail_VRA_2026-08-07_20260728_181103.png / output/debug/air_canada_vacations_form_fail_VRA_2026-08-07_20260728_181103.html
+2026-07-28 18:11:04,723 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:11:09,742 [INFO] scraper.brute_force: [71/128] air_canada_vacations: VRA le 2026-08-08
+2026-07-28 18:11:23,125 [WARNING] scraper.air_canada_vacations: Impossible de remplir le formulaire pour VRA le 2026-08-08 (sélecteur à vérifier)
+2026-07-28 18:11:25,203 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_form_fail_VRA_2026-08-08_20260728_181123.png / output/debug/air_canada_vacations_form_fail_VRA_2026-08-08_20260728_181123.html
+2026-07-28 18:11:25,203 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:11:31,247 [INFO] scraper.brute_force: [72/128] air_canada_vacations: VRA le 2026-08-09
+2026-07-28 18:11:44,204 [WARNING] scraper.air_canada_vacations: Impossible de remplir le formulaire pour VRA le 2026-08-09 (sélecteur à vérifier)
+2026-07-28 18:11:46,085 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_form_fail_VRA_2026-08-09_20260728_181144.png / output/debug/air_canada_vacations_form_fail_VRA_2026-08-09_20260728_181144.html
+2026-07-28 18:11:46,085 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:11:52,396 [INFO] scraper.brute_force: [73/128] air_canada_vacations: CCC le 2026-08-02
+2026-07-28 18:12:05,504 [WARNING] scraper.air_canada_vacations: Impossible de remplir le formulaire pour CCC le 2026-08-02 (sélecteur à vérifier)
+2026-07-28 18:12:06,632 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_form_fail_CCC_2026-08-02_20260728_181205.png / output/debug/air_canada_vacations_form_fail_CCC_2026-08-02_20260728_181205.html
+2026-07-28 18:12:06,632 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:12:11,258 [INFO] scraper.brute_force: [74/128] air_canada_vacations: CCC le 2026-08-03
+2026-07-28 18:12:24,616 [WARNING] scraper.air_canada_vacations: Impossible de remplir le formulaire pour CCC le 2026-08-03 (sélecteur à vérifier)
+2026-07-28 18:12:25,924 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_form_fail_CCC_2026-08-03_20260728_181224.png / output/debug/air_canada_vacations_form_fail_CCC_2026-08-03_20260728_181224.html
+2026-07-28 18:12:25,924 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:12:30,681 [INFO] scraper.brute_force: [75/128] air_canada_vacations: CCC le 2026-08-04
+2026-07-28 18:12:44,370 [WARNING] scraper.air_canada_vacations: Impossible de remplir le formulaire pour CCC le 2026-08-04 (sélecteur à vérifier)
+2026-07-28 18:12:46,310 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_form_fail_CCC_2026-08-04_20260728_181244.png / output/debug/air_canada_vacations_form_fail_CCC_2026-08-04_20260728_181244.html
+2026-07-28 18:12:46,310 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:12:51,135 [INFO] scraper.brute_force: [76/128] air_canada_vacations: CCC le 2026-08-05
+2026-07-28 18:13:04,357 [WARNING] scraper.air_canada_vacations: Impossible de remplir le formulaire pour CCC le 2026-08-05 (sélecteur à vérifier)
+2026-07-28 18:13:06,203 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_form_fail_CCC_2026-08-05_20260728_181304.png / output/debug/air_canada_vacations_form_fail_CCC_2026-08-05_20260728_181304.html
+2026-07-28 18:13:06,203 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:13:10,172 [INFO] scraper.brute_force: [77/128] air_canada_vacations: CCC le 2026-08-06
+2026-07-28 18:13:23,662 [WARNING] scraper.air_canada_vacations: Impossible de remplir le formulaire pour CCC le 2026-08-06 (sélecteur à vérifier)
+2026-07-28 18:13:25,640 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_form_fail_CCC_2026-08-06_20260728_181323.png / output/debug/air_canada_vacations_form_fail_CCC_2026-08-06_20260728_181323.html
+2026-07-28 18:13:25,641 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:13:31,133 [INFO] scraper.brute_force: [78/128] air_canada_vacations: CCC le 2026-08-07
+2026-07-28 18:13:43,975 [WARNING] scraper.air_canada_vacations: Impossible de remplir le formulaire pour CCC le 2026-08-07 (sélecteur à vérifier)
+2026-07-28 18:13:45,033 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_form_fail_CCC_2026-08-07_20260728_181343.png / output/debug/air_canada_vacations_form_fail_CCC_2026-08-07_20260728_181343.html
+2026-07-28 18:13:45,033 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:13:48,651 [INFO] scraper.brute_force: [79/128] air_canada_vacations: CCC le 2026-08-08
+2026-07-28 18:14:01,816 [WARNING] scraper.air_canada_vacations: Impossible de remplir le formulaire pour CCC le 2026-08-08 (sélecteur à vérifier)
+2026-07-28 18:14:03,752 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_form_fail_CCC_2026-08-08_20260728_181401.png / output/debug/air_canada_vacations_form_fail_CCC_2026-08-08_20260728_181401.html
+2026-07-28 18:14:03,752 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:14:09,567 [INFO] scraper.brute_force: [80/128] air_canada_vacations: CCC le 2026-08-09
+2026-07-28 18:14:22,556 [WARNING] scraper.air_canada_vacations: Impossible de remplir le formulaire pour CCC le 2026-08-09 (sélecteur à vérifier)
+2026-07-28 18:14:24,746 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_form_fail_CCC_2026-08-09_20260728_181422.png / output/debug/air_canada_vacations_form_fail_CCC_2026-08-09_20260728_181422.html
+2026-07-28 18:14:24,746 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:14:31,015 [INFO] scraper.brute_force: [81/128] air_canada_vacations: SNU le 2026-08-02
+2026-07-28 18:14:44,463 [WARNING] scraper.air_canada_vacations: Impossible de remplir le formulaire pour SNU le 2026-08-02 (sélecteur à vérifier)
+2026-07-28 18:14:46,567 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_form_fail_SNU_2026-08-02_20260728_181444.png / output/debug/air_canada_vacations_form_fail_SNU_2026-08-02_20260728_181444.html
+2026-07-28 18:14:46,567 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:14:49,843 [INFO] scraper.brute_force: [82/128] air_canada_vacations: SNU le 2026-08-03
+2026-07-28 18:15:03,335 [WARNING] scraper.air_canada_vacations: Impossible de remplir le formulaire pour SNU le 2026-08-03 (sélecteur à vérifier)
+2026-07-28 18:15:04,639 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_form_fail_SNU_2026-08-03_20260728_181503.png / output/debug/air_canada_vacations_form_fail_SNU_2026-08-03_20260728_181503.html
+2026-07-28 18:15:04,639 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:15:07,966 [INFO] scraper.brute_force: [83/128] air_canada_vacations: SNU le 2026-08-04
+2026-07-28 18:15:21,594 [WARNING] scraper.air_canada_vacations: Impossible de remplir le formulaire pour SNU le 2026-08-04 (sélecteur à vérifier)
+2026-07-28 18:15:24,115 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_form_fail_SNU_2026-08-04_20260728_181521.png / output/debug/air_canada_vacations_form_fail_SNU_2026-08-04_20260728_181521.html
+2026-07-28 18:15:24,115 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:15:27,328 [INFO] scraper.brute_force: [84/128] air_canada_vacations: SNU le 2026-08-05
+2026-07-28 18:15:40,756 [WARNING] scraper.air_canada_vacations: Impossible de remplir le formulaire pour SNU le 2026-08-05 (sélecteur à vérifier)
+2026-07-28 18:15:42,520 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_form_fail_SNU_2026-08-05_20260728_181540.png / output/debug/air_canada_vacations_form_fail_SNU_2026-08-05_20260728_181540.html
+2026-07-28 18:15:42,520 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:15:45,801 [INFO] scraper.brute_force: [85/128] air_canada_vacations: SNU le 2026-08-06
+2026-07-28 18:15:59,657 [WARNING] scraper.air_canada_vacations: Impossible de remplir le formulaire pour SNU le 2026-08-06 (sélecteur à vérifier)
+2026-07-28 18:16:00,752 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_form_fail_SNU_2026-08-06_20260728_181559.png / output/debug/air_canada_vacations_form_fail_SNU_2026-08-06_20260728_181559.html
+2026-07-28 18:16:00,752 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:16:06,531 [INFO] scraper.brute_force: [86/128] air_canada_vacations: SNU le 2026-08-07
+2026-07-28 18:16:20,397 [WARNING] scraper.air_canada_vacations: Impossible de remplir le formulaire pour SNU le 2026-08-07 (sélecteur à vérifier)
+2026-07-28 18:16:22,217 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_form_fail_SNU_2026-08-07_20260728_181620.png / output/debug/air_canada_vacations_form_fail_SNU_2026-08-07_20260728_181620.html
+2026-07-28 18:16:22,217 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:16:27,221 [INFO] scraper.brute_force: [87/128] air_canada_vacations: SNU le 2026-08-08
+2026-07-28 18:16:40,554 [WARNING] scraper.air_canada_vacations: Impossible de remplir le formulaire pour SNU le 2026-08-08 (sélecteur à vérifier)
+2026-07-28 18:16:42,350 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_form_fail_SNU_2026-08-08_20260728_181640.png / output/debug/air_canada_vacations_form_fail_SNU_2026-08-08_20260728_181640.html
+2026-07-28 18:16:42,351 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:16:46,798 [INFO] scraper.brute_force: [88/128] air_canada_vacations: SNU le 2026-08-09
+2026-07-28 18:17:01,039 [WARNING] scraper.air_canada_vacations: Impossible de remplir le formulaire pour SNU le 2026-08-09 (sélecteur à vérifier)
+2026-07-28 18:17:03,075 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_form_fail_SNU_2026-08-09_20260728_181701.png / output/debug/air_canada_vacations_form_fail_SNU_2026-08-09_20260728_181701.html
+2026-07-28 18:17:03,075 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:17:06,178 [INFO] scraper.brute_force: [89/128] air_canada_vacations: PVR le 2026-08-02
+2026-07-28 18:17:21,275 [WARNING] scraper.air_canada_vacations: Sélection de dates non confirmée sur le calendrier (best-effort, sélecteurs à vérifier) — la recherche continue avec les dates par défaut.
+2026-07-28 18:17:23,255 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_calendar_select_fail_20260728_181721.png / output/debug/air_canada_vacations_calendar_select_fail_20260728_181721.html
+2026-07-28 18:17:26,464 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_results_PVR_2026-08-02_20260728_181725.png / output/debug/air_canada_vacations_results_PVR_2026-08-02_20260728_181725.html
+2026-07-28 18:17:56,466 [INFO] scraper.air_canada_vacations: Aucun résultat (ou sélecteur de carte à corriger) pour PVR le 2026-08-02.
+2026-07-28 18:17:56,467 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:18:02,144 [INFO] scraper.brute_force: [90/128] air_canada_vacations: PVR le 2026-08-03
+2026-07-28 18:18:17,165 [WARNING] scraper.air_canada_vacations: Sélection de dates non confirmée sur le calendrier (best-effort, sélecteurs à vérifier) — la recherche continue avec les dates par défaut.
+2026-07-28 18:18:18,947 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_calendar_select_fail_20260728_181817.png / output/debug/air_canada_vacations_calendar_select_fail_20260728_181817.html
+2026-07-28 18:18:22,037 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_results_PVR_2026-08-03_20260728_181821.png / output/debug/air_canada_vacations_results_PVR_2026-08-03_20260728_181821.html
+2026-07-28 18:18:52,038 [INFO] scraper.air_canada_vacations: Aucun résultat (ou sélecteur de carte à corriger) pour PVR le 2026-08-03.
+2026-07-28 18:18:52,039 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:18:55,290 [INFO] scraper.brute_force: [91/128] air_canada_vacations: PVR le 2026-08-04
+2026-07-28 18:19:10,122 [WARNING] scraper.air_canada_vacations: Sélection de dates non confirmée sur le calendrier (best-effort, sélecteurs à vérifier) — la recherche continue avec les dates par défaut.
+2026-07-28 18:19:11,266 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_calendar_select_fail_20260728_181910.png / output/debug/air_canada_vacations_calendar_select_fail_20260728_181910.html
+2026-07-28 18:19:14,555 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_results_PVR_2026-08-04_20260728_181913.png / output/debug/air_canada_vacations_results_PVR_2026-08-04_20260728_181913.html
+2026-07-28 18:19:44,556 [INFO] scraper.air_canada_vacations: Aucun résultat (ou sélecteur de carte à corriger) pour PVR le 2026-08-04.
+2026-07-28 18:19:44,556 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:19:49,199 [INFO] scraper.brute_force: [92/128] air_canada_vacations: PVR le 2026-08-05
+2026-07-28 18:20:04,043 [WARNING] scraper.air_canada_vacations: Sélection de dates non confirmée sur le calendrier (best-effort, sélecteurs à vérifier) — la recherche continue avec les dates par défaut.
+2026-07-28 18:20:05,994 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_calendar_select_fail_20260728_182004.png / output/debug/air_canada_vacations_calendar_select_fail_20260728_182004.html
+2026-07-28 18:20:09,291 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_results_PVR_2026-08-05_20260728_182008.png / output/debug/air_canada_vacations_results_PVR_2026-08-05_20260728_182008.html
+2026-07-28 18:20:39,293 [INFO] scraper.air_canada_vacations: Aucun résultat (ou sélecteur de carte à corriger) pour PVR le 2026-08-05.
+2026-07-28 18:20:39,293 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:20:43,695 [INFO] scraper.brute_force: [93/128] air_canada_vacations: PVR le 2026-08-06
+2026-07-28 18:20:58,691 [WARNING] scraper.air_canada_vacations: Sélection de dates non confirmée sur le calendrier (best-effort, sélecteurs à vérifier) — la recherche continue avec les dates par défaut.
+2026-07-28 18:21:00,554 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_calendar_select_fail_20260728_182058.png / output/debug/air_canada_vacations_calendar_select_fail_20260728_182058.html
+2026-07-28 18:21:03,673 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_results_PVR_2026-08-06_20260728_182102.png / output/debug/air_canada_vacations_results_PVR_2026-08-06_20260728_182102.html
+2026-07-28 18:21:33,674 [INFO] scraper.air_canada_vacations: Aucun résultat (ou sélecteur de carte à corriger) pour PVR le 2026-08-06.
+2026-07-28 18:21:33,674 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:21:36,854 [INFO] scraper.brute_force: [94/128] air_canada_vacations: PVR le 2026-08-07
+2026-07-28 18:21:52,575 [WARNING] scraper.air_canada_vacations: Sélection de dates non confirmée sur le calendrier (best-effort, sélecteurs à vérifier) — la recherche continue avec les dates par défaut.
+2026-07-28 18:21:54,736 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_calendar_select_fail_20260728_182152.png / output/debug/air_canada_vacations_calendar_select_fail_20260728_182152.html
+2026-07-28 18:21:57,897 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_results_PVR_2026-08-07_20260728_182157.png / output/debug/air_canada_vacations_results_PVR_2026-08-07_20260728_182157.html
+2026-07-28 18:22:27,898 [INFO] scraper.air_canada_vacations: Aucun résultat (ou sélecteur de carte à corriger) pour PVR le 2026-08-07.
+2026-07-28 18:22:27,898 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:22:32,239 [INFO] scraper.brute_force: [95/128] air_canada_vacations: PVR le 2026-08-08
+2026-07-28 18:22:47,069 [WARNING] scraper.air_canada_vacations: Sélection de dates non confirmée sur le calendrier (best-effort, sélecteurs à vérifier) — la recherche continue avec les dates par défaut.
+2026-07-28 18:22:49,127 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_calendar_select_fail_20260728_182247.png / output/debug/air_canada_vacations_calendar_select_fail_20260728_182247.html
+2026-07-28 18:22:52,247 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_results_PVR_2026-08-08_20260728_182251.png / output/debug/air_canada_vacations_results_PVR_2026-08-08_20260728_182251.html
+2026-07-28 18:23:22,249 [INFO] scraper.air_canada_vacations: Aucun résultat (ou sélecteur de carte à corriger) pour PVR le 2026-08-08.
+2026-07-28 18:23:22,249 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:23:29,075 [INFO] scraper.brute_force: [96/128] air_canada_vacations: PVR le 2026-08-09
+2026-07-28 18:23:44,205 [WARNING] scraper.air_canada_vacations: Sélection de dates non confirmée sur le calendrier (best-effort, sélecteurs à vérifier) — la recherche continue avec les dates par défaut.
+2026-07-28 18:23:46,101 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_calendar_select_fail_20260728_182344.png / output/debug/air_canada_vacations_calendar_select_fail_20260728_182344.html
+2026-07-28 18:23:49,354 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_results_PVR_2026-08-09_20260728_182348.png / output/debug/air_canada_vacations_results_PVR_2026-08-09_20260728_182348.html
+2026-07-28 18:24:19,356 [INFO] scraper.air_canada_vacations: Aucun résultat (ou sélecteur de carte à corriger) pour PVR le 2026-08-09.
+2026-07-28 18:24:19,357 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:24:23,671 [INFO] scraper.brute_force: [97/128] air_canada_vacations: SJD le 2026-08-02
+2026-07-28 18:24:38,841 [WARNING] scraper.air_canada_vacations: Sélection de dates non confirmée sur le calendrier (best-effort, sélecteurs à vérifier) — la recherche continue avec les dates par défaut.
+2026-07-28 18:24:40,659 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_calendar_select_fail_20260728_182438.png / output/debug/air_canada_vacations_calendar_select_fail_20260728_182438.html
+2026-07-28 18:24:43,760 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_results_SJD_2026-08-02_20260728_182442.png / output/debug/air_canada_vacations_results_SJD_2026-08-02_20260728_182442.html
+2026-07-28 18:25:13,762 [INFO] scraper.air_canada_vacations: Aucun résultat (ou sélecteur de carte à corriger) pour SJD le 2026-08-02.
+2026-07-28 18:25:13,762 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:25:19,929 [INFO] scraper.brute_force: [98/128] air_canada_vacations: SJD le 2026-08-03
+2026-07-28 18:25:34,984 [WARNING] scraper.air_canada_vacations: Sélection de dates non confirmée sur le calendrier (best-effort, sélecteurs à vérifier) — la recherche continue avec les dates par défaut.
+2026-07-28 18:25:36,166 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_calendar_select_fail_20260728_182534.png / output/debug/air_canada_vacations_calendar_select_fail_20260728_182534.html
+2026-07-28 18:25:39,486 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_results_SJD_2026-08-03_20260728_182538.png / output/debug/air_canada_vacations_results_SJD_2026-08-03_20260728_182538.html
+2026-07-28 18:26:09,488 [INFO] scraper.air_canada_vacations: Aucun résultat (ou sélecteur de carte à corriger) pour SJD le 2026-08-03.
+2026-07-28 18:26:09,488 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:26:14,312 [INFO] scraper.brute_force: [99/128] air_canada_vacations: SJD le 2026-08-04
+2026-07-28 18:26:28,874 [WARNING] scraper.air_canada_vacations: Sélection de dates non confirmée sur le calendrier (best-effort, sélecteurs à vérifier) — la recherche continue avec les dates par défaut.
+2026-07-28 18:26:31,178 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_calendar_select_fail_20260728_182628.png / output/debug/air_canada_vacations_calendar_select_fail_20260728_182628.html
+2026-07-28 18:26:34,390 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_results_SJD_2026-08-04_20260728_182633.png / output/debug/air_canada_vacations_results_SJD_2026-08-04_20260728_182633.html
+2026-07-28 18:27:04,392 [INFO] scraper.air_canada_vacations: Aucun résultat (ou sélecteur de carte à corriger) pour SJD le 2026-08-04.
+2026-07-28 18:27:04,392 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:27:08,635 [INFO] scraper.brute_force: [100/128] air_canada_vacations: SJD le 2026-08-05
+2026-07-28 18:27:23,423 [WARNING] scraper.air_canada_vacations: Sélection de dates non confirmée sur le calendrier (best-effort, sélecteurs à vérifier) — la recherche continue avec les dates par défaut.
+2026-07-28 18:27:24,962 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_calendar_select_fail_20260728_182723.png / output/debug/air_canada_vacations_calendar_select_fail_20260728_182723.html
+2026-07-28 18:27:28,230 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_results_SJD_2026-08-05_20260728_182727.png / output/debug/air_canada_vacations_results_SJD_2026-08-05_20260728_182727.html
+2026-07-28 18:27:58,232 [INFO] scraper.air_canada_vacations: Aucun résultat (ou sélecteur de carte à corriger) pour SJD le 2026-08-05.
+2026-07-28 18:27:58,232 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:28:03,398 [INFO] scraper.brute_force: [101/128] air_canada_vacations: SJD le 2026-08-06
+2026-07-28 18:28:17,936 [WARNING] scraper.air_canada_vacations: Sélection de dates non confirmée sur le calendrier (best-effort, sélecteurs à vérifier) — la recherche continue avec les dates par défaut.
+2026-07-28 18:28:20,034 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_calendar_select_fail_20260728_182817.png / output/debug/air_canada_vacations_calendar_select_fail_20260728_182817.html
+2026-07-28 18:28:23,290 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_results_SJD_2026-08-06_20260728_182822.png / output/debug/air_canada_vacations_results_SJD_2026-08-06_20260728_182822.html
+2026-07-28 18:28:53,292 [INFO] scraper.air_canada_vacations: Aucun résultat (ou sélecteur de carte à corriger) pour SJD le 2026-08-06.
+2026-07-28 18:28:53,292 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:28:57,460 [INFO] scraper.brute_force: [102/128] air_canada_vacations: SJD le 2026-08-07
+2026-07-28 18:29:11,762 [WARNING] scraper.air_canada_vacations: Sélection de dates non confirmée sur le calendrier (best-effort, sélecteurs à vérifier) — la recherche continue avec les dates par défaut.
+2026-07-28 18:29:13,706 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_calendar_select_fail_20260728_182911.png / output/debug/air_canada_vacations_calendar_select_fail_20260728_182911.html
+2026-07-28 18:29:16,955 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_results_SJD_2026-08-07_20260728_182916.png / output/debug/air_canada_vacations_results_SJD_2026-08-07_20260728_182916.html
+2026-07-28 18:29:46,956 [INFO] scraper.air_canada_vacations: Aucun résultat (ou sélecteur de carte à corriger) pour SJD le 2026-08-07.
+2026-07-28 18:29:46,956 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:29:53,522 [INFO] scraper.brute_force: [103/128] air_canada_vacations: SJD le 2026-08-08
+2026-07-28 18:30:08,071 [WARNING] scraper.air_canada_vacations: Sélection de dates non confirmée sur le calendrier (best-effort, sélecteurs à vérifier) — la recherche continue avec les dates par défaut.
+2026-07-28 18:30:09,974 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_calendar_select_fail_20260728_183008.png / output/debug/air_canada_vacations_calendar_select_fail_20260728_183008.html
+2026-07-28 18:30:13,252 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_results_SJD_2026-08-08_20260728_183012.png / output/debug/air_canada_vacations_results_SJD_2026-08-08_20260728_183012.html
+2026-07-28 18:30:43,255 [INFO] scraper.air_canada_vacations: Aucun résultat (ou sélecteur de carte à corriger) pour SJD le 2026-08-08.
+2026-07-28 18:30:43,255 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:30:47,737 [INFO] scraper.brute_force: [104/128] air_canada_vacations: SJD le 2026-08-09
+2026-07-28 18:31:02,474 [WARNING] scraper.air_canada_vacations: Sélection de dates non confirmée sur le calendrier (best-effort, sélecteurs à vérifier) — la recherche continue avec les dates par défaut.
+2026-07-28 18:31:04,455 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_calendar_select_fail_20260728_183102.png / output/debug/air_canada_vacations_calendar_select_fail_20260728_183102.html
+2026-07-28 18:31:07,837 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_results_SJD_2026-08-09_20260728_183106.png / output/debug/air_canada_vacations_results_SJD_2026-08-09_20260728_183106.html
+2026-07-28 18:31:37,838 [INFO] scraper.air_canada_vacations: Aucun résultat (ou sélecteur de carte à corriger) pour SJD le 2026-08-09.
+2026-07-28 18:31:37,838 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:31:43,079 [INFO] scraper.brute_force: [105/128] air_canada_vacations: HUX le 2026-08-02
+2026-07-28 18:31:57,841 [WARNING] scraper.air_canada_vacations: Sélection de dates non confirmée sur le calendrier (best-effort, sélecteurs à vérifier) — la recherche continue avec les dates par défaut.
+2026-07-28 18:31:59,522 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_calendar_select_fail_20260728_183157.png / output/debug/air_canada_vacations_calendar_select_fail_20260728_183157.html
+2026-07-28 18:32:02,693 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_results_HUX_2026-08-02_20260728_183201.png / output/debug/air_canada_vacations_results_HUX_2026-08-02_20260728_183201.html
+2026-07-28 18:32:32,694 [INFO] scraper.air_canada_vacations: Aucun résultat (ou sélecteur de carte à corriger) pour HUX le 2026-08-02.
+2026-07-28 18:32:32,694 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:32:38,665 [INFO] scraper.brute_force: [106/128] air_canada_vacations: HUX le 2026-08-03
+2026-07-28 18:32:53,250 [WARNING] scraper.air_canada_vacations: Sélection de dates non confirmée sur le calendrier (best-effort, sélecteurs à vérifier) — la recherche continue avec les dates par défaut.
+2026-07-28 18:32:55,155 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_calendar_select_fail_20260728_183253.png / output/debug/air_canada_vacations_calendar_select_fail_20260728_183253.html
+2026-07-28 18:32:58,579 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_results_HUX_2026-08-03_20260728_183257.png / output/debug/air_canada_vacations_results_HUX_2026-08-03_20260728_183257.html
+2026-07-28 18:33:28,580 [INFO] scraper.air_canada_vacations: Aucun résultat (ou sélecteur de carte à corriger) pour HUX le 2026-08-03.
+2026-07-28 18:33:28,580 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:33:34,260 [INFO] scraper.brute_force: [107/128] air_canada_vacations: HUX le 2026-08-04
+2026-07-28 18:33:48,876 [WARNING] scraper.air_canada_vacations: Sélection de dates non confirmée sur le calendrier (best-effort, sélecteurs à vérifier) — la recherche continue avec les dates par défaut.
+2026-07-28 18:33:50,893 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_calendar_select_fail_20260728_183348.png / output/debug/air_canada_vacations_calendar_select_fail_20260728_183348.html
+2026-07-28 18:33:54,172 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_results_HUX_2026-08-04_20260728_183353.png / output/debug/air_canada_vacations_results_HUX_2026-08-04_20260728_183353.html
+2026-07-28 18:34:24,173 [INFO] scraper.air_canada_vacations: Aucun résultat (ou sélecteur de carte à corriger) pour HUX le 2026-08-04.
+2026-07-28 18:34:24,173 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:34:28,700 [INFO] scraper.brute_force: [108/128] air_canada_vacations: HUX le 2026-08-05
+2026-07-28 18:34:43,485 [WARNING] scraper.air_canada_vacations: Sélection de dates non confirmée sur le calendrier (best-effort, sélecteurs à vérifier) — la recherche continue avec les dates par défaut.
+2026-07-28 18:34:45,503 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_calendar_select_fail_20260728_183443.png / output/debug/air_canada_vacations_calendar_select_fail_20260728_183443.html
+2026-07-28 18:34:48,996 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_results_HUX_2026-08-05_20260728_183447.png / output/debug/air_canada_vacations_results_HUX_2026-08-05_20260728_183447.html
+2026-07-28 18:35:18,998 [INFO] scraper.air_canada_vacations: Aucun résultat (ou sélecteur de carte à corriger) pour HUX le 2026-08-05.
+2026-07-28 18:35:18,998 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:35:23,445 [INFO] scraper.brute_force: [109/128] air_canada_vacations: HUX le 2026-08-06
+2026-07-28 18:35:38,066 [WARNING] scraper.air_canada_vacations: Sélection de dates non confirmée sur le calendrier (best-effort, sélecteurs à vérifier) — la recherche continue avec les dates par défaut.
+2026-07-28 18:35:39,943 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_calendar_select_fail_20260728_183538.png / output/debug/air_canada_vacations_calendar_select_fail_20260728_183538.html
+2026-07-28 18:35:43,285 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_results_HUX_2026-08-06_20260728_183542.png / output/debug/air_canada_vacations_results_HUX_2026-08-06_20260728_183542.html
+2026-07-28 18:36:13,286 [INFO] scraper.air_canada_vacations: Aucun résultat (ou sélecteur de carte à corriger) pour HUX le 2026-08-06.
+2026-07-28 18:36:13,286 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:36:16,965 [INFO] scraper.brute_force: [110/128] air_canada_vacations: HUX le 2026-08-07
+2026-07-28 18:36:32,210 [WARNING] scraper.air_canada_vacations: Sélection de dates non confirmée sur le calendrier (best-effort, sélecteurs à vérifier) — la recherche continue avec les dates par défaut.
+2026-07-28 18:36:34,435 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_calendar_select_fail_20260728_183632.png / output/debug/air_canada_vacations_calendar_select_fail_20260728_183632.html
+2026-07-28 18:36:37,602 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_results_HUX_2026-08-07_20260728_183636.png / output/debug/air_canada_vacations_results_HUX_2026-08-07_20260728_183636.html
+2026-07-28 18:37:07,604 [INFO] scraper.air_canada_vacations: Aucun résultat (ou sélecteur de carte à corriger) pour HUX le 2026-08-07.
+2026-07-28 18:37:07,604 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:37:13,639 [INFO] scraper.brute_force: [111/128] air_canada_vacations: HUX le 2026-08-08
+2026-07-28 18:37:28,328 [WARNING] scraper.air_canada_vacations: Sélection de dates non confirmée sur le calendrier (best-effort, sélecteurs à vérifier) — la recherche continue avec les dates par défaut.
+2026-07-28 18:37:30,443 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_calendar_select_fail_20260728_183728.png / output/debug/air_canada_vacations_calendar_select_fail_20260728_183728.html
+2026-07-28 18:37:33,655 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_results_HUX_2026-08-08_20260728_183732.png / output/debug/air_canada_vacations_results_HUX_2026-08-08_20260728_183732.html
+2026-07-28 18:38:03,656 [INFO] scraper.air_canada_vacations: Aucun résultat (ou sélecteur de carte à corriger) pour HUX le 2026-08-08.
+2026-07-28 18:38:03,657 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:38:07,732 [INFO] scraper.brute_force: [112/128] air_canada_vacations: HUX le 2026-08-09
+2026-07-28 18:38:22,547 [WARNING] scraper.air_canada_vacations: Sélection de dates non confirmée sur le calendrier (best-effort, sélecteurs à vérifier) — la recherche continue avec les dates par défaut.
+2026-07-28 18:38:24,952 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_calendar_select_fail_20260728_183822.png / output/debug/air_canada_vacations_calendar_select_fail_20260728_183822.html
+2026-07-28 18:38:28,101 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_results_HUX_2026-08-09_20260728_183827.png / output/debug/air_canada_vacations_results_HUX_2026-08-09_20260728_183827.html
+2026-07-28 18:38:58,104 [INFO] scraper.air_canada_vacations: Aucun résultat (ou sélecteur de carte à corriger) pour HUX le 2026-08-09.
+2026-07-28 18:38:58,105 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:39:04,382 [INFO] scraper.brute_force: [113/128] air_canada_vacations: MBJ le 2026-08-02
+2026-07-28 18:39:23,197 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_results_MBJ_2026-08-02_20260728_183922.png / output/debug/air_canada_vacations_results_MBJ_2026-08-02_20260728_183922.html
+2026-07-28 18:39:53,210 [INFO] scraper.air_canada_vacations: Aucun résultat (ou sélecteur de carte à corriger) pour MBJ le 2026-08-02.
+2026-07-28 18:39:53,211 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:40:00,077 [INFO] scraper.brute_force: [114/128] air_canada_vacations: MBJ le 2026-08-03
+2026-07-28 18:40:18,653 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_results_MBJ_2026-08-03_20260728_184018.png / output/debug/air_canada_vacations_results_MBJ_2026-08-03_20260728_184018.html
+2026-07-28 18:40:48,654 [INFO] scraper.air_canada_vacations: Aucun résultat (ou sélecteur de carte à corriger) pour MBJ le 2026-08-03.
+2026-07-28 18:40:48,654 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:40:55,412 [INFO] scraper.brute_force: [115/128] air_canada_vacations: MBJ le 2026-08-04
+2026-07-28 18:41:13,948 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_results_MBJ_2026-08-04_20260728_184113.png / output/debug/air_canada_vacations_results_MBJ_2026-08-04_20260728_184113.html
+2026-07-28 18:41:43,950 [INFO] scraper.air_canada_vacations: Aucun résultat (ou sélecteur de carte à corriger) pour MBJ le 2026-08-04.
+2026-07-28 18:41:43,950 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:41:46,953 [INFO] scraper.brute_force: [116/128] air_canada_vacations: MBJ le 2026-08-05
+2026-07-28 18:42:05,833 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_results_MBJ_2026-08-05_20260728_184205.png / output/debug/air_canada_vacations_results_MBJ_2026-08-05_20260728_184205.html
+2026-07-28 18:42:35,844 [INFO] scraper.air_canada_vacations: Aucun résultat (ou sélecteur de carte à corriger) pour MBJ le 2026-08-05.
+2026-07-28 18:42:35,844 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:42:39,816 [INFO] scraper.brute_force: [117/128] air_canada_vacations: MBJ le 2026-08-06
+2026-07-28 18:42:58,726 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_results_MBJ_2026-08-06_20260728_184258.png / output/debug/air_canada_vacations_results_MBJ_2026-08-06_20260728_184258.html
+2026-07-28 18:43:28,733 [INFO] scraper.air_canada_vacations: Aucun résultat (ou sélecteur de carte à corriger) pour MBJ le 2026-08-06.
+2026-07-28 18:43:28,734 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:43:33,863 [INFO] scraper.brute_force: [118/128] air_canada_vacations: MBJ le 2026-08-07
+2026-07-28 18:43:52,795 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_results_MBJ_2026-08-07_20260728_184352.png / output/debug/air_canada_vacations_results_MBJ_2026-08-07_20260728_184352.html
+2026-07-28 18:44:22,797 [INFO] scraper.air_canada_vacations: Aucun résultat (ou sélecteur de carte à corriger) pour MBJ le 2026-08-07.
+2026-07-28 18:44:22,797 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:44:28,690 [INFO] scraper.brute_force: [119/128] air_canada_vacations: MBJ le 2026-08-08
+2026-07-28 18:44:47,271 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_results_MBJ_2026-08-08_20260728_184446.png / output/debug/air_canada_vacations_results_MBJ_2026-08-08_20260728_184446.html
+2026-07-28 18:45:17,272 [INFO] scraper.air_canada_vacations: Aucun résultat (ou sélecteur de carte à corriger) pour MBJ le 2026-08-08.
+2026-07-28 18:45:17,273 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:45:21,454 [INFO] scraper.brute_force: [120/128] air_canada_vacations: MBJ le 2026-08-09
+2026-07-28 18:45:40,047 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_results_MBJ_2026-08-09_20260728_184539.png / output/debug/air_canada_vacations_results_MBJ_2026-08-09_20260728_184539.html
+2026-07-28 18:46:10,049 [INFO] scraper.air_canada_vacations: Aucun résultat (ou sélecteur de carte à corriger) pour MBJ le 2026-08-09.
+2026-07-28 18:46:10,049 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:46:16,473 [INFO] scraper.brute_force: [121/128] air_canada_vacations: POP le 2026-08-02
+2026-07-28 18:46:31,480 [WARNING] scraper.air_canada_vacations: Sélection de dates non confirmée sur le calendrier (best-effort, sélecteurs à vérifier) — la recherche continue avec les dates par défaut.
+2026-07-28 18:46:33,741 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_calendar_select_fail_20260728_184631.png / output/debug/air_canada_vacations_calendar_select_fail_20260728_184631.html
+2026-07-28 18:46:36,875 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_results_POP_2026-08-02_20260728_184636.png / output/debug/air_canada_vacations_results_POP_2026-08-02_20260728_184636.html
+2026-07-28 18:47:06,877 [INFO] scraper.air_canada_vacations: Aucun résultat (ou sélecteur de carte à corriger) pour POP le 2026-08-02.
+2026-07-28 18:47:06,877 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:47:11,382 [INFO] scraper.brute_force: [122/128] air_canada_vacations: POP le 2026-08-03
+2026-07-28 18:47:26,374 [WARNING] scraper.air_canada_vacations: Sélection de dates non confirmée sur le calendrier (best-effort, sélecteurs à vérifier) — la recherche continue avec les dates par défaut.
+2026-07-28 18:47:28,152 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_calendar_select_fail_20260728_184726.png / output/debug/air_canada_vacations_calendar_select_fail_20260728_184726.html
+2026-07-28 18:47:31,285 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_results_POP_2026-08-03_20260728_184730.png / output/debug/air_canada_vacations_results_POP_2026-08-03_20260728_184730.html
+2026-07-28 18:48:01,287 [INFO] scraper.air_canada_vacations: Aucun résultat (ou sélecteur de carte à corriger) pour POP le 2026-08-03.
+2026-07-28 18:48:01,287 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:48:07,582 [INFO] scraper.brute_force: [123/128] air_canada_vacations: POP le 2026-08-04
+2026-07-28 18:48:22,969 [WARNING] scraper.air_canada_vacations: Sélection de dates non confirmée sur le calendrier (best-effort, sélecteurs à vérifier) — la recherche continue avec les dates par défaut.
+2026-07-28 18:48:24,293 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_calendar_select_fail_20260728_184822.png / output/debug/air_canada_vacations_calendar_select_fail_20260728_184822.html
+2026-07-28 18:48:27,490 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_results_POP_2026-08-04_20260728_184826.png / output/debug/air_canada_vacations_results_POP_2026-08-04_20260728_184826.html
+2026-07-28 18:48:57,491 [INFO] scraper.air_canada_vacations: Aucun résultat (ou sélecteur de carte à corriger) pour POP le 2026-08-04.
+2026-07-28 18:48:57,492 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:49:00,863 [INFO] scraper.brute_force: [124/128] air_canada_vacations: POP le 2026-08-05
+2026-07-28 18:49:15,751 [WARNING] scraper.air_canada_vacations: Sélection de dates non confirmée sur le calendrier (best-effort, sélecteurs à vérifier) — la recherche continue avec les dates par défaut.
+2026-07-28 18:49:17,568 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_calendar_select_fail_20260728_184915.png / output/debug/air_canada_vacations_calendar_select_fail_20260728_184915.html
+2026-07-28 18:49:20,735 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_results_POP_2026-08-05_20260728_184919.png / output/debug/air_canada_vacations_results_POP_2026-08-05_20260728_184919.html
+2026-07-28 18:49:50,738 [INFO] scraper.air_canada_vacations: Aucun résultat (ou sélecteur de carte à corriger) pour POP le 2026-08-05.
+2026-07-28 18:49:50,738 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:49:54,639 [INFO] scraper.brute_force: [125/128] air_canada_vacations: POP le 2026-08-06
+2026-07-28 18:50:09,489 [WARNING] scraper.air_canada_vacations: Sélection de dates non confirmée sur le calendrier (best-effort, sélecteurs à vérifier) — la recherche continue avec les dates par défaut.
+2026-07-28 18:50:10,635 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_calendar_select_fail_20260728_185009.png / output/debug/air_canada_vacations_calendar_select_fail_20260728_185009.html
+2026-07-28 18:50:13,832 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_results_POP_2026-08-06_20260728_185012.png / output/debug/air_canada_vacations_results_POP_2026-08-06_20260728_185012.html
+2026-07-28 18:50:43,834 [INFO] scraper.air_canada_vacations: Aucun résultat (ou sélecteur de carte à corriger) pour POP le 2026-08-06.
+2026-07-28 18:50:43,834 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:50:48,323 [INFO] scraper.brute_force: [126/128] air_canada_vacations: POP le 2026-08-07
+2026-07-28 18:51:02,756 [WARNING] scraper.air_canada_vacations: Sélection de dates non confirmée sur le calendrier (best-effort, sélecteurs à vérifier) — la recherche continue avec les dates par défaut.
+2026-07-28 18:51:04,740 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_calendar_select_fail_20260728_185102.png / output/debug/air_canada_vacations_calendar_select_fail_20260728_185102.html
+2026-07-28 18:51:08,020 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_results_POP_2026-08-07_20260728_185107.png / output/debug/air_canada_vacations_results_POP_2026-08-07_20260728_185107.html
+2026-07-28 18:51:38,022 [INFO] scraper.air_canada_vacations: Aucun résultat (ou sélecteur de carte à corriger) pour POP le 2026-08-07.
+2026-07-28 18:51:38,022 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:51:43,326 [INFO] scraper.brute_force: [127/128] air_canada_vacations: POP le 2026-08-08
+2026-07-28 18:51:57,869 [WARNING] scraper.air_canada_vacations: Sélection de dates non confirmée sur le calendrier (best-effort, sélecteurs à vérifier) — la recherche continue avec les dates par défaut.
+2026-07-28 18:51:59,600 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_calendar_select_fail_20260728_185157.png / output/debug/air_canada_vacations_calendar_select_fail_20260728_185157.html
+2026-07-28 18:52:02,698 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_results_POP_2026-08-08_20260728_185201.png / output/debug/air_canada_vacations_results_POP_2026-08-08_20260728_185201.html
+2026-07-28 18:52:32,699 [INFO] scraper.air_canada_vacations: Aucun résultat (ou sélecteur de carte à corriger) pour POP le 2026-08-08.
+2026-07-28 18:52:32,699 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:52:38,354 [INFO] scraper.brute_force: [128/128] air_canada_vacations: POP le 2026-08-09
+2026-07-28 18:52:52,938 [WARNING] scraper.air_canada_vacations: Sélection de dates non confirmée sur le calendrier (best-effort, sélecteurs à vérifier) — la recherche continue avec les dates par défaut.
+2026-07-28 18:52:54,140 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_calendar_select_fail_20260728_185252.png / output/debug/air_canada_vacations_calendar_select_fail_20260728_185252.html
+2026-07-28 18:52:57,229 [INFO] scraper.air_canada_vacations: Debug sauvegardé: output/debug/air_canada_vacations_results_POP_2026-08-09_20260728_185256.png / output/debug/air_canada_vacations_results_POP_2026-08-09_20260728_185256.html
+2026-07-28 18:53:27,231 [INFO] scraper.air_canada_vacations: Aucun résultat (ou sélecteur de carte à corriger) pour POP le 2026-08-09.
+2026-07-28 18:53:27,232 [INFO] scraper.brute_force:   -> 0 offre(s)
+2026-07-28 18:53:33,627 [INFO] scraper.aggregate: 0 offre(s) au total, 0 sous le budget de 12000 $ CAD
+Aucune offre trouvée sous le budget.
+
+Résultats complets : output/offers_20260728_185333.csv / output/offers_20260728_185333.json
