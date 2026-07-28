@@ -96,12 +96,15 @@ class TransatProvider(Provider):
             origin_field.first.click(timeout=5000)
             self.page.wait_for_timeout(500)
             item = self.page.locator(f"li[data-uid='{config.ORIGIN}']")
+            item.first.wait_for(state="visible", timeout=3000)
             item.first.click(timeout=5000)
-        except Exception:
+        except Exception as exc:
             self.logger.warning(
-                "Impossible de sélectionner l'origine %s sur Transat (sélecteur à vérifier, "
-                "on continue avec l'origine par défaut du site)",
+                "Impossible de sélectionner l'origine %s sur Transat (%s: %s) — "
+                "on continue avec l'origine par défaut du site",
                 config.ORIGIN,
+                type(exc).__name__,
+                exc,
             )
             if self.debug:
                 self.dump_debug("origin_select_fail")
@@ -123,6 +126,7 @@ class TransatProvider(Provider):
             for month in target_months:
                 month_item = self.page.locator(f"li[data-uid='Month-{month}']")
                 if month_item.count() > 0:
+                    month_item.first.wait_for(state="visible", timeout=3000)
                     month_item.first.click(timeout=5000)
                     return
 
@@ -155,11 +159,15 @@ class TransatProvider(Provider):
             covering = [c for c in candidates if c[0] >= days_needed]
             best_uid = min(covering)[1] if covering else max(candidates)[1]
 
-            self.page.locator(f"li[data-uid='{best_uid}']").first.click(timeout=5000)
-        except Exception:
+            best_item = self.page.locator(f"li[data-uid='{best_uid}']")
+            best_item.first.wait_for(state="visible", timeout=3000)
+            best_item.first.click(timeout=5000)
+        except Exception as exc:
             self.logger.warning(
                 "Impossible de sélectionner le filtre de dates sur Transat (sélecteur à "
-                "vérifier, on continue sans filtre de date)"
+                "vérifier, on continue sans filtre de date) — %s: %s",
+                type(exc).__name__,
+                exc,
             )
             if self.debug:
                 self.dump_debug("date_select_fail")

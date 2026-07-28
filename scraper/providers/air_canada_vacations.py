@@ -163,11 +163,17 @@ class AirCanadaVacationsProvider(Provider):
         nights_min: int,
         nights_max: int,
     ) -> None:
-        try:
-            self._fill_combobox(ORIGIN_INPUT_SELECTOR, ORIGIN_LISTBOX_SELECTOR, config.ORIGIN)
-            self._fill_combobox(DESTINATION_INPUT_SELECTOR, DESTINATION_LISTBOX_SELECTOR, destination.name)
-        except ProviderError:
-            raise
+        # NB : certains noms de station précis (ex. "Varadero") renvoient
+        # "Aucun résultat trouvé" sur ce site — ACV semble indexer par
+        # région plutôt que par nom de station exact pour certaines
+        # destinations (ex: Puerto Vallarta -> matché sur "Riviera
+        # Nayarit"). Pas de repli automatique sur le pays ici : ça
+        # fausserait l'attribution destination_code -> résultats (des
+        # hôtels d'une autre région du même pays se retrouveraient
+        # étiquetés sous le mauvais code). Ces destinations remontent donc
+        # 0 offre pour ce provider — Transat les couvre déjà par ailleurs.
+        self._fill_combobox(ORIGIN_INPUT_SELECTOR, ORIGIN_LISTBOX_SELECTOR, config.ORIGIN)
+        self._fill_combobox(DESTINATION_INPUT_SELECTOR, DESTINATION_LISTBOX_SELECTOR, destination.name)
 
         self._select_dates_best_effort(departure_date, nights_min, nights_max)
 
@@ -201,10 +207,12 @@ class AirCanadaVacationsProvider(Provider):
             self.page.wait_for_timeout(500)
             self._navigate_calendar_to_month(return_date)
             self._click_calendar_day(return_date)
-        except Exception:
+        except Exception as exc:
             self.logger.warning(
-                "Sélection de dates non confirmée sur le calendrier (best-effort, "
-                "sélecteurs à vérifier) — la recherche continue avec les dates par défaut."
+                "Sélection de dates non confirmée sur le calendrier (%s: %s) — la recherche "
+                "continue avec les dates par défaut.",
+                type(exc).__name__,
+                exc,
             )
             if self.debug:
                 self.dump_debug("calendar_select_fail")
@@ -217,7 +225,11 @@ class AirCanadaVacationsProvider(Provider):
         # tomberait sur le mauvais mois. Non vérifié en conditions réelles.
         target_label = f"{FRENCH_MONTHS[target.month]} {target.year}"
         header = self.page.locator(".dp__month_year_wrap")
-        next_btn = self.page.locator("button.dp__inner_nav").last
+        # Le bouton "mois suivant" est un <button aria-label="Next month">
+        # (libellé anglais même sur le site FR) — pas un ".dp__inner_nav",
+        # qui est le <span> de l'icône À L'INTÉRIEUR du bouton, pas le
+        # bouton lui-même (constaté sur une vraie capture du calendrier).
+        next_btn = self.page.locator("button[aria-label='Next month']")
         if header.count() == 0 or next_btn.count() == 0:
             return
         for _ in range(8):  # garde-fou pour ne jamais boucler indéfiniment
